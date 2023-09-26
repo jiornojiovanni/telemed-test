@@ -1,0 +1,365 @@
+
+{
+    "name": "WIN_ch-WIN_ch-WIN_ch-WIN_ch (2023-07-26-180545) - 0",
+    "start": 1690387548046,
+    "stop": 1690387549307,
+    "description": "WIN_ch-WIN_ch-WIN_ch-WIN_ch (2023-07-26-180545)",
+    "stage": "finished",
+    "status": "FAILED",
+    "parameters": [
+    ],
+    "steps": [
+        {
+            "name": "Filling out reports, handling payload, creating runners..",
+            "start": 1690387545531,
+            "stop": 1690387548044,
+            "description": "Filling out reports, handling payload, creating runners..",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1690387545539,
+            "stop": 1690387547959,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1690387545539,
+            "stop": 1690387547959,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1690387545539,
+            "stop": 1690387547959,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1690387545539,
+            "stop": 1690387548028,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-7a64c - 0: Open https://google.com",
+            "start": 1690387548046,
+            "stop": 1690387548664,
+            "description": "Open https://google.com",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-d5b20 - 1: Open https://google.com",
+            "start": 1690387548046,
+            "stop": 1690387548801,
+            "description": "Open https://google.com",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-6cdd9 - 3: Open https://google.com",
+            "start": 1690387548046,
+            "stop": 1690387548814,
+            "description": "Open https://google.com",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-67655 - 2: Open https://google.com",
+            "start": 1690387548048,
+            "stop": 1690387548879,
+            "description": "Open https://google.com",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-d5b20 - 1: MyFirstCheck compares two random values and pass if 56 < 51",
+            "start": 1690387548801,
+            "stop": 1690387549258,
+            "description": "MyFirstCheck compares two random values and pass if 56 < 51",
+            "stage": "finished",
+            "status": "FAILED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "error_screenshot_MyFirstCheck",
+                    "type": "image/png",
+                    "source": "0a4e2a01-0ed1-4612-8796-590595d5d473-attachment.png"
+                },
+                {
+                    "name": "error.log",
+                    "type": "text/json",
+                    "source": "646b45c3-3827-4b29-9700-0901ee6f5b93-attachment.json"
+                }
+            ],
+            "statusDetails": {
+                "known": true,
+                "muted": false,
+                "flaky": false,
+                "message": "MyFirstCheck failed, 56 >= 51\r\n",
+                "trace": "io.cosmosoftware.kite.exception.KiteTestException: MyFirstCheck failed, 56 >= 51\r\n\r\n\tat org.webrtc.kite.telemed.checks.MyFirstCheck.step(MyFirstCheck.java:29)\r\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\r\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\r\n\tat org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:750)\r\n"
+            }
+        },
+        {
+            "name": "ch115_WIN-6cdd9 - 3: MyFirstCheck compares two random values and pass if 40 < 68",
+            "start": 1690387548814,
+            "stop": 1690387549268,
+            "description": "MyFirstCheck compares two random values and pass if 40 < 68",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "Page-screenshot(2023-07-26-180549)",
+                    "type": "image/png",
+                    "source": "26cba36c-a11e-4f21-83a1-4f15e8ecdb91-attachment.png"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-7a64c - 0: MyFirstCheck compares two random values and pass if 25 < 34",
+            "start": 1690387548665,
+            "stop": 1690387549271,
+            "description": "MyFirstCheck compares two random values and pass if 25 < 34",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "Page-screenshot(2023-07-26-180549)",
+                    "type": "image/png",
+                    "source": "b4b0835d-0831-4b15-8aac-055df62bb9aa-attachment.png"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-67655 - 2: MyFirstCheck compares two random values and pass if 97 < 60",
+            "start": 1690387548879,
+            "stop": 1690387549307,
+            "description": "MyFirstCheck compares two random values and pass if 97 < 60",
+            "stage": "finished",
+            "status": "FAILED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "error_screenshot_MyFirstCheck",
+                    "type": "image/png",
+                    "source": "ed5f553b-4197-40ad-a6be-14531c05378a-attachment.png"
+                },
+                {
+                    "name": "error.log",
+                    "type": "text/json",
+                    "source": "ae384709-a5c4-4647-b720-128d243246db-attachment.json"
+                }
+            ],
+            "statusDetails": {
+                "known": true,
+                "muted": false,
+                "flaky": false,
+                "message": "MyFirstCheck failed, 97 >= 60\r\n",
+                "trace": "io.cosmosoftware.kite.exception.KiteTestException: MyFirstCheck failed, 97 >= 60\r\n\r\n\tat org.webrtc.kite.telemed.checks.MyFirstCheck.step(MyFirstCheck.java:29)\r\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\r\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\r\n\tat org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:750)\r\n"
+            }
+        },
+        {
+            "name": "Cleaning up and finishing the test",
+            "start": 1690387549307,
+            "stop": 1690387551243,
+            "description": "Cleaning up and finishing the test",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        }
+    ],
+    "attachments": [
+    ],
+    "statusDetails": {
+        "known": true,
+        "muted": false,
+        "flaky": false,
+        "message": "MyFirstCheck failed, 56 >= 51\r\n",
+        "trace": "io.cosmosoftware.kite.exception.KiteTestException: MyFirstCheck failed, 56 >= 51\r\n\r\n\tat org.webrtc.kite.telemed.checks.MyFirstCheck.step(MyFirstCheck.java:29)\r\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\r\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\r\n\tat org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:750)\r\n"
+    },
+    "uuid": "0006f142-cf73-4600-b7be-dec7a89fb748",
+    "fullName": "org.webrtc.kite.telemed.KiteTelemedTest",
+    "historyId": "e7c47b9a-0c1c-4e48-b1d9-874ac0aad31b",
+    "links": [
+    ],
+    "labels": [
+        {
+            "name": "package",
+            "value": "package org.webrtc.kite.telemed"
+        },
+        {
+            "name": "testClass",
+            "value": "class org.webrtc.kite.telemed.KiteTelemedTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "execute"
+        },
+        {
+            "name": "host",
+            "value": "normalbook"
+        },
+        {
+            "name": "suite",
+            "value": "Telemed Test  (2023-07-26-180545)"
+        },
+        {
+            "name": "parentSuite",
+            "value": "Telemed  [2023-07-26-180545] (2023-07-26-180545)"
+        }
+    ]
+}

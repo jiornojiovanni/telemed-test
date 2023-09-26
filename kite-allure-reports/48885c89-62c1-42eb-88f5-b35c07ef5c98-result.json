@@ -1,0 +1,335 @@
+
+{
+    "name": "WIN_ch-WIN_ch (2023-08-07-163839) - 0",
+    "start": 1691419121681,
+    "stop": 1691419130597,
+    "description": "WIN_ch-WIN_ch (2023-08-07-163839)",
+    "stage": "finished",
+    "status": "BROKEN",
+    "parameters": [
+    ],
+    "steps": [
+        {
+            "name": "Filling out reports, handling payload, creating runners..",
+            "start": 1691419119049,
+            "stop": 1691419121678,
+            "description": "Filling out reports, handling payload, creating runners..",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1691419119057,
+            "stop": 1691419121635,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1691419119056,
+            "stop": 1691419121637,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-bcb0e - 1: Open https://falgsc.eu.org/",
+            "start": 1691419121681,
+            "stop": 1691419123356,
+            "description": "Open https://falgsc.eu.org/",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-40206 - 0: Open https://falgsc.eu.org/",
+            "start": 1691419121681,
+            "stop": 1691419123398,
+            "description": "Open https://falgsc.eu.org/",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-40206 - 0: Open https://falgsc.eu.org/#/pocPJ/",
+            "start": 1691419123399,
+            "stop": 1691419123524,
+            "description": "Open https://falgsc.eu.org/#/pocPJ/",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-bcb0e - 1: Open https://falgsc.eu.org/#/pocPJ/",
+            "start": 1691419123356,
+            "stop": 1691419123525,
+            "description": "Open https://falgsc.eu.org/#/pocPJ/",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-bcb0e - 1: Getting stats from [\"ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection\"]",
+            "start": 1691419123526,
+            "stop": 1691419129078,
+            "description": "Getting stats from [\"ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection\"]",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "Stats(Raw)_ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection",
+                    "type": "text/json",
+                    "source": "f0b60429-0d59-4ead-9060-6d58cd442c63-attachment.json"
+                },
+                {
+                    "name": "Stats(Summary)_ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection",
+                    "type": "text/json",
+                    "source": "0e6a2216-6b98-45ea-ac01-d790af7330e1-attachment.json"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-40206 - 0: Getting stats from [\"ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection\"]",
+            "start": 1691419123524,
+            "stop": 1691419129081,
+            "description": "Getting stats from [\"ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection\"]",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "Stats(Raw)_ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection",
+                    "type": "text/json",
+                    "source": "d572167b-2c4f-4f00-ae9d-3dae2381da72-attachment.json"
+                },
+                {
+                    "name": "Stats(Summary)_ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection",
+                    "type": "text/json",
+                    "source": "984b53df-1381-4a01-a267-df6c6e71c78b-attachment.json"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-bcb0e - 1: Closing visit",
+            "start": 1691419129078,
+            "stop": 1691419130594,
+            "description": "Closing visit",
+            "stage": "finished",
+            "status": "BROKEN",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "error_screenshot_CloseVisitStep",
+                    "type": "image/png",
+                    "source": "968a4c5b-6100-44c5-a15a-6cb1662e7a92-attachment.png"
+                },
+                {
+                    "name": "error.log",
+                    "type": "text/json",
+                    "source": "0d120108-1f6a-425a-8aed-1ae71351341c-attachment.json"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": true,
+                "message": "***UNHANDLED EXCEPTION*** \r\n This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException",
+                "trace": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (394, 872)\n  (Session info: chrome=115.0.5790.111)\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'NORMALBOOK', ip: '192.168.178.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_372'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.111, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\\Users\\giann\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58111}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: bcb0e4554c8301ede122b1cd22e...}\nSession ID: bcb0e4554c8301ede122b1cd22e6c112\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy20.click(Unknown Source)\r\n\tat org.webrtc.kite.telemed.steps.CloseVisitStep.step(CloseVisitStep.java:21)\r\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\r\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\r\n\tat org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:750)\r\n"
+            }
+        },
+        {
+            "name": "ch115_WIN-40206 - 0: Closing visit",
+            "start": 1691419129081,
+            "stop": 1691419130597,
+            "description": "Closing visit",
+            "stage": "finished",
+            "status": "BROKEN",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "error_screenshot_CloseVisitStep",
+                    "type": "image/png",
+                    "source": "63583918-b4f7-4b09-8879-841b5d7cc234-attachment.png"
+                },
+                {
+                    "name": "error.log",
+                    "type": "text/json",
+                    "source": "e0873dd7-6fbe-4b2c-aaf8-aebfa3583f68-attachment.json"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": true,
+                "message": "***UNHANDLED EXCEPTION*** \r\n This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException",
+                "trace": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (392, 715)\n  (Session info: chrome=115.0.5790.111)\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'NORMALBOOK', ip: '192.168.178.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_372'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.111, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\\Users\\giann\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58112}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 402066c46c479652c4a8884f42f...}\nSession ID: 402066c46c479652c4a8884f42faf266\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy20.click(Unknown Source)\r\n\tat org.webrtc.kite.telemed.steps.CloseVisitStep.step(CloseVisitStep.java:21)\r\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\r\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\r\n\tat org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:750)\r\n"
+            }
+        },
+        {
+            "name": "Cleaning up and finishing the test",
+            "start": 1691419130597,
+            "stop": 1691419131401,
+            "description": "Cleaning up and finishing the test",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        }
+    ],
+    "attachments": [
+    ],
+    "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": true,
+        "message": "***UNHANDLED EXCEPTION*** \r\n This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException",
+        "trace": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (394, 872)\n  (Session info: chrome=115.0.5790.111)\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'NORMALBOOK', ip: '192.168.178.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_372'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.111, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\\Users\\giann\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58111}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: bcb0e4554c8301ede122b1cd22e...}\nSession ID: bcb0e4554c8301ede122b1cd22e6c112\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy20.click(Unknown Source)\r\n\tat org.webrtc.kite.telemed.steps.CloseVisitStep.step(CloseVisitStep.java:21)\r\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\r\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\r\n\tat org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:750)\r\n"
+    },
+    "uuid": "48885c89-62c1-42eb-88f5-b35c07ef5c98",
+    "fullName": "org.webrtc.kite.telemed.KiteTelemedTest",
+    "historyId": "9a23cc23-1b21-4fbf-b484-9c7e21dfbbb1",
+    "links": [
+    ],
+    "labels": [
+        {
+            "name": "package",
+            "value": "package org.webrtc.kite.telemed"
+        },
+        {
+            "name": "testClass",
+            "value": "class org.webrtc.kite.telemed.KiteTelemedTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "execute"
+        },
+        {
+            "name": "host",
+            "value": "normalbook"
+        },
+        {
+            "name": "suite",
+            "value": "Telemed Test  (2023-08-07-163839)"
+        },
+        {
+            "name": "parentSuite",
+            "value": "Telemed  [2023-08-07-163838] (2023-08-07-163838)"
+        }
+    ]
+}

@@ -1,0 +1,430 @@
+
+{
+    "Connected": true,
+    "Room": "https://falgsc.eu.org/#/pocPJ/213",
+    "StatsArray": [
+        {
+            "local-candidate": {
+                "I7NzXV/XJ": {
+                    "id": "I7NzXV/XJ",
+                    "timestamp": "1690907817895",
+                    "address": "192.168.178.64",
+                    "port": "52827",
+                    "protocol": "udp",
+                    "candidateType": "host",
+                    "url": "NA"
+                },
+                "IBOaZh0yI": {
+                    "id": "IBOaZh0yI",
+                    "timestamp": "1690907817895",
+                    "address": "5.78.45.120",
+                    "port": "64288",
+                    "protocol": "udp",
+                    "candidateType": "relay",
+                    "url": "turn:us-0.turn.peerjs.com:3478?transport=udp"
+                },
+                "ICS/FPMe+": {
+                    "id": "ICS/FPMe+",
+                    "timestamp": "1690907817895",
+                    "address": "94.34.153.239",
+                    "port": "52826",
+                    "protocol": "udp",
+                    "candidateType": "srflx",
+                    "url": "stun:eu-0.turn.peerjs.com:3478"
+                },
+                "IFYy3UCWW": {
+                    "id": "IFYy3UCWW",
+                    "timestamp": "1690907817895",
+                    "address": "192.168.178.64",
+                    "port": "52825",
+                    "protocol": "udp",
+                    "candidateType": "host",
+                    "url": "NA"
+                },
+                "IRAwi0dX6": {
+                    "id": "IRAwi0dX6",
+                    "timestamp": "1690907817895",
+                    "address": "94.34.153.239",
+                    "port": "52825",
+                    "protocol": "udp",
+                    "candidateType": "srflx",
+                    "url": "stun:eu-0.turn.peerjs.com:3478"
+                },
+                "IS4YTE4Lg": {
+                    "id": "IS4YTE4Lg",
+                    "timestamp": "1690907817895",
+                    "address": "130.61.225.54",
+                    "port": "60888",
+                    "protocol": "udp",
+                    "candidateType": "relay",
+                    "url": "turn:eu-0.turn.peerjs.com:3478?transport=udp"
+                },
+                "IS8eyGkoE": {
+                    "id": "IS8eyGkoE",
+                    "timestamp": "1690907817895",
+                    "address": "94.34.153.239",
+                    "port": "52827",
+                    "protocol": "udp",
+                    "candidateType": "srflx",
+                    "url": "stun:eu-0.turn.peerjs.com:3478"
+                },
+                "ITauarV8e": {
+                    "id": "ITauarV8e",
+                    "timestamp": "1690907817895",
+                    "address": "5.78.45.120",
+                    "port": "62562",
+                    "protocol": "udp",
+                    "candidateType": "relay",
+                    "url": "turn:us-0.turn.peerjs.com:3478?transport=udp"
+                },
+                "IW3dg49Ek": {
+                    "id": "IW3dg49Ek",
+                    "timestamp": "1690907817895",
+                    "address": "5.78.45.120",
+                    "port": "57522",
+                    "protocol": "udp",
+                    "candidateType": "relay",
+                    "url": "turn:us-0.turn.peerjs.com:3478?transport=udp"
+                },
+                "IXRvSBI3E": {
+                    "id": "IXRvSBI3E",
+                    "timestamp": "1690907817895",
+                    "address": "192.168.178.64",
+                    "port": "9",
+                    "protocol": "tcp",
+                    "candidateType": "host",
+                    "url": "NA"
+                },
+                "IcVZi+WGx": {
+                    "id": "IcVZi+WGx",
+                    "timestamp": "1690907817895",
+                    "address": "192.168.178.64",
+                    "port": "9",
+                    "protocol": "tcp",
+                    "candidateType": "host",
+                    "url": "NA"
+                },
+                "IjVQCE7lz": {
+                    "id": "IjVQCE7lz",
+                    "timestamp": "1690907817895",
+                    "address": "130.61.225.54",
+                    "port": "60770",
+                    "protocol": "udp",
+                    "candidateType": "relay",
+                    "url": "turn:eu-0.turn.peerjs.com:3478?transport=udp"
+                },
+                "IoQKrhPxM": {
+                    "id": "IoQKrhPxM",
+                    "timestamp": "1690907817895",
+                    "address": "192.168.178.64",
+                    "port": "9",
+                    "protocol": "tcp",
+                    "candidateType": "host",
+                    "url": "NA"
+                },
+                "Is+XNrftA": {
+                    "id": "Is+XNrftA",
+                    "timestamp": "1690907817895",
+                    "address": "192.168.178.64",
+                    "port": "52826",
+                    "protocol": "udp",
+                    "candidateType": "host",
+                    "url": "NA"
+                },
+                "IwsYRJ+5H": {
+                    "id": "IwsYRJ+5H",
+                    "timestamp": "1690907817895",
+                    "address": "130.61.225.54",
+                    "port": "50211",
+                    "protocol": "udp",
+                    "candidateType": "relay",
+                    "url": "turn:eu-0.turn.peerjs.com:3478?transport=udp"
+                }
+            },
+            "outbound-rtp": {
+                "OT01A2318916263": {
+                    "id": "OT01A2318916263",
+                    "timestamp": "1690907817895",
+                    "ssrc": "2318916263",
+                    "kind": "audio",
+                    "transportId": "T01",
+                    "codecId": "NA",
+                    "packetsSent": "0",
+                    "bytesSent": "0",
+                    "senderId": "NA",
+                    "remoteId": "NA",
+                    "nackCount": "0",
+                    "framesEncoded": "NA",
+                    "framesSent": "NA",
+                    "framesPerSecond": "NA"
+                },
+                "OT11V3635321105": {
+                    "id": "OT11V3635321105",
+                    "timestamp": "1690907817895",
+                    "ssrc": "3635321105",
+                    "kind": "video",
+                    "transportId": "T11",
+                    "codecId": "NA",
+                    "packetsSent": "0",
+                    "bytesSent": "0",
+                    "senderId": "NA",
+                    "remoteId": "NA",
+                    "nackCount": "0",
+                    "framesEncoded": "0",
+                    "framesSent": "0",
+                    "framesPerSecond": "NA"
+                }
+            },
+            "peer-connection": {
+                "P": {
+                    "id": "P",
+                    "timestamp": "1690907817895",
+                    "dataChannelsOpened": "0",
+                    "dataChannelsClosed": "0"
+                }
+            },
+            "transport": {
+                "T01": {
+                    "id": "T01",
+                    "timestamp": "1690907817895",
+                    "bytesSent": "0",
+                    "bytesReceived": "0",
+                    "selectedCandidatePairId": "NA",
+                    "localCertificateId": "CF59:D7:A5:A8:E7:A4:38:36:FF:E1:19:15:38:BF:18:37:58:AB:AD:30:E0:EB:22:31:59:23:4B:DC:C4:1C:C6:6C",
+                    "remoteCertificateId": "NA"
+                },
+                "T11": {
+                    "id": "T11",
+                    "timestamp": "1690907817895",
+                    "bytesSent": "0",
+                    "bytesReceived": "0",
+                    "selectedCandidatePairId": "NA",
+                    "localCertificateId": "CF59:D7:A5:A8:E7:A4:38:36:FF:E1:19:15:38:BF:18:37:58:AB:AD:30:E0:EB:22:31:59:23:4B:DC:C4:1C:C6:6C",
+                    "remoteCertificateId": "NA"
+                },
+                "T21": {
+                    "id": "T21",
+                    "timestamp": "1690907817895",
+                    "bytesSent": "0",
+                    "bytesReceived": "0",
+                    "selectedCandidatePairId": "NA",
+                    "localCertificateId": "CF59:D7:A5:A8:E7:A4:38:36:FF:E1:19:15:38:BF:18:37:58:AB:AD:30:E0:EB:22:31:59:23:4B:DC:C4:1C:C6:6C",
+                    "remoteCertificateId": "NA"
+                }
+            }
+        },
+        {
+            "local-candidate": {
+                "I7NzXV/XJ": {
+                    "id": "I7NzXV/XJ",
+                    "timestamp": "1690907819993",
+                    "address": "192.168.178.64",
+                    "port": "52827",
+                    "protocol": "udp",
+                    "candidateType": "host",
+                    "url": "NA"
+                },
+                "IBOaZh0yI": {
+                    "id": "IBOaZh0yI",
+                    "timestamp": "1690907819993",
+                    "address": "5.78.45.120",
+                    "port": "64288",
+                    "protocol": "udp",
+                    "candidateType": "relay",
+                    "url": "turn:us-0.turn.peerjs.com:3478?transport=udp"
+                },
+                "ICS/FPMe+": {
+                    "id": "ICS/FPMe+",
+                    "timestamp": "1690907819993",
+                    "address": "94.34.153.239",
+                    "port": "52826",
+                    "protocol": "udp",
+                    "candidateType": "srflx",
+                    "url": "stun:eu-0.turn.peerjs.com:3478"
+                },
+                "IFYy3UCWW": {
+                    "id": "IFYy3UCWW",
+                    "timestamp": "1690907819993",
+                    "address": "192.168.178.64",
+                    "port": "52825",
+                    "protocol": "udp",
+                    "candidateType": "host",
+                    "url": "NA"
+                },
+                "IRAwi0dX6": {
+                    "id": "IRAwi0dX6",
+                    "timestamp": "1690907819993",
+                    "address": "94.34.153.239",
+                    "port": "52825",
+                    "protocol": "udp",
+                    "candidateType": "srflx",
+                    "url": "stun:eu-0.turn.peerjs.com:3478"
+                },
+                "IS4YTE4Lg": {
+                    "id": "IS4YTE4Lg",
+                    "timestamp": "1690907819993",
+                    "address": "130.61.225.54",
+                    "port": "60888",
+                    "protocol": "udp",
+                    "candidateType": "relay",
+                    "url": "turn:eu-0.turn.peerjs.com:3478?transport=udp"
+                },
+                "IS8eyGkoE": {
+                    "id": "IS8eyGkoE",
+                    "timestamp": "1690907819993",
+                    "address": "94.34.153.239",
+                    "port": "52827",
+                    "protocol": "udp",
+                    "candidateType": "srflx",
+                    "url": "stun:eu-0.turn.peerjs.com:3478"
+                },
+                "ITauarV8e": {
+                    "id": "ITauarV8e",
+                    "timestamp": "1690907819993",
+                    "address": "5.78.45.120",
+                    "port": "62562",
+                    "protocol": "udp",
+                    "candidateType": "relay",
+                    "url": "turn:us-0.turn.peerjs.com:3478?transport=udp"
+                },
+                "IW3dg49Ek": {
+                    "id": "IW3dg49Ek",
+                    "timestamp": "1690907819993",
+                    "address": "5.78.45.120",
+                    "port": "57522",
+                    "protocol": "udp",
+                    "candidateType": "relay",
+                    "url": "turn:us-0.turn.peerjs.com:3478?transport=udp"
+                },
+                "IXRvSBI3E": {
+                    "id": "IXRvSBI3E",
+                    "timestamp": "1690907819993",
+                    "address": "192.168.178.64",
+                    "port": "9",
+                    "protocol": "tcp",
+                    "candidateType": "host",
+                    "url": "NA"
+                },
+                "IcVZi+WGx": {
+                    "id": "IcVZi+WGx",
+                    "timestamp": "1690907819993",
+                    "address": "192.168.178.64",
+                    "port": "9",
+                    "protocol": "tcp",
+                    "candidateType": "host",
+                    "url": "NA"
+                },
+                "IjVQCE7lz": {
+                    "id": "IjVQCE7lz",
+                    "timestamp": "1690907819993",
+                    "address": "130.61.225.54",
+                    "port": "60770",
+                    "protocol": "udp",
+                    "candidateType": "relay",
+                    "url": "turn:eu-0.turn.peerjs.com:3478?transport=udp"
+                },
+                "IoQKrhPxM": {
+                    "id": "IoQKrhPxM",
+                    "timestamp": "1690907819993",
+                    "address": "192.168.178.64",
+                    "port": "9",
+                    "protocol": "tcp",
+                    "candidateType": "host",
+                    "url": "NA"
+                },
+                "Is+XNrftA": {
+                    "id": "Is+XNrftA",
+                    "timestamp": "1690907819993",
+                    "address": "192.168.178.64",
+                    "port": "52826",
+                    "protocol": "udp",
+                    "candidateType": "host",
+                    "url": "NA"
+                },
+                "IwsYRJ+5H": {
+                    "id": "IwsYRJ+5H",
+                    "timestamp": "1690907819993",
+                    "address": "130.61.225.54",
+                    "port": "50211",
+                    "protocol": "udp",
+                    "candidateType": "relay",
+                    "url": "turn:eu-0.turn.peerjs.com:3478?transport=udp"
+                }
+            },
+            "outbound-rtp": {
+                "OT01A2318916263": {
+                    "id": "OT01A2318916263",
+                    "timestamp": "1690907819993",
+                    "ssrc": "2318916263",
+                    "kind": "audio",
+                    "transportId": "T01",
+                    "codecId": "NA",
+                    "packetsSent": "0",
+                    "bytesSent": "0",
+                    "senderId": "NA",
+                    "remoteId": "NA",
+                    "nackCount": "0",
+                    "framesEncoded": "NA",
+                    "framesSent": "NA",
+                    "framesPerSecond": "NA"
+                },
+                "OT11V3635321105": {
+                    "id": "OT11V3635321105",
+                    "timestamp": "1690907819993",
+                    "ssrc": "3635321105",
+                    "kind": "video",
+                    "transportId": "T11",
+                    "codecId": "NA",
+                    "packetsSent": "0",
+                    "bytesSent": "0",
+                    "senderId": "NA",
+                    "remoteId": "NA",
+                    "nackCount": "0",
+                    "framesEncoded": "0",
+                    "framesSent": "0",
+                    "framesPerSecond": "NA"
+                }
+            },
+            "peer-connection": {
+                "P": {
+                    "id": "P",
+                    "timestamp": "1690907819993",
+                    "dataChannelsOpened": "0",
+                    "dataChannelsClosed": "0"
+                }
+            },
+            "transport": {
+                "T01": {
+                    "id": "T01",
+                    "timestamp": "1690907819993",
+                    "bytesSent": "0",
+                    "bytesReceived": "0",
+                    "selectedCandidatePairId": "NA",
+                    "localCertificateId": "CF59:D7:A5:A8:E7:A4:38:36:FF:E1:19:15:38:BF:18:37:58:AB:AD:30:E0:EB:22:31:59:23:4B:DC:C4:1C:C6:6C",
+                    "remoteCertificateId": "NA"
+                },
+                "T11": {
+                    "id": "T11",
+                    "timestamp": "1690907819993",
+                    "bytesSent": "0",
+                    "bytesReceived": "0",
+                    "selectedCandidatePairId": "NA",
+                    "localCertificateId": "CF59:D7:A5:A8:E7:A4:38:36:FF:E1:19:15:38:BF:18:37:58:AB:AD:30:E0:EB:22:31:59:23:4B:DC:C4:1C:C6:6C",
+                    "remoteCertificateId": "NA"
+                },
+                "T21": {
+                    "id": "T21",
+                    "timestamp": "1690907819993",
+                    "bytesSent": "0",
+                    "bytesReceived": "0",
+                    "selectedCandidatePairId": "NA",
+                    "localCertificateId": "CF59:D7:A5:A8:E7:A4:38:36:FF:E1:19:15:38:BF:18:37:58:AB:AD:30:E0:EB:22:31:59:23:4B:DC:C4:1C:C6:6C",
+                    "remoteCertificateId": "NA"
+                }
+            }
+        }
+    ],
+    "Network Profile": "",
+    "Region Id": "NC",
+    "Itinerary": "0"
+}

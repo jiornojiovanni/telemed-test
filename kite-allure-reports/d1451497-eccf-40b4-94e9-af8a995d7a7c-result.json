@@ -1,0 +1,275 @@
+
+{
+    "name": "WIN_ch-WIN_ch (2023-07-31-165710) - 0",
+    "start": 1690815432818,
+    "stop": 1690815433910,
+    "description": "WIN_ch-WIN_ch (2023-07-31-165710)",
+    "stage": "finished",
+    "status": "BROKEN",
+    "parameters": [
+    ],
+    "steps": [
+        {
+            "name": "Filling out reports, handling payload, creating runners..",
+            "start": 1690815430979,
+            "stop": 1690815432815,
+            "description": "Filling out reports, handling payload, creating runners..",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1690815430986,
+            "stop": 1690815432803,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1690815430987,
+            "stop": 1690815432803,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-2c1a0 - 1: Open https://falgsc.eu.org/",
+            "start": 1690815432818,
+            "stop": 1690815433893,
+            "description": "Open https://falgsc.eu.org/",
+            "stage": "finished",
+            "status": "BROKEN",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "error_screenshot_OpenUrlStep",
+                    "type": "image/png",
+                    "source": "574ec479-d7bc-436b-9cc2-f63beafb064a-attachment.png"
+                },
+                {
+                    "name": "error.log",
+                    "type": "text/json",
+                    "source": "b2b151a2-1cde-4557-af0f-eb40020f62e2-attachment.json"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": true,
+                "message": "***UNHANDLED EXCEPTION*** \r\n This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException",
+                "trace": "java.lang.NullPointerException\r\n\tat java.util.Properties$LineReader.readLine(Properties.java:434)\r\n\tat java.util.Properties.load0(Properties.java:353)\r\n\tat java.util.Properties.load(Properties.java:341)\r\n\tat org.webrtc.kite.telemed.steps.OpenUrlStep.step(OpenUrlStep.java:47)\r\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\r\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\r\n\tat org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:750)\r\n"
+            }
+        },
+        {
+            "name": "ch115_WIN-2c1a0 - 1: Open https://falgsc.eu.org//#/pocPJ/166",
+            "start": 1690815433893,
+            "stop": 1690815433893,
+            "description": "Open https://falgsc.eu.org//#/pocPJ/166",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-2c1a0 - 1: Getting stats from [\"ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection\"]",
+            "start": 1690815433893,
+            "stop": 1690815433894,
+            "description": "Getting stats from [\"ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection\"]",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-25ed5 - 0: Open https://falgsc.eu.org/",
+            "start": 1690815432818,
+            "stop": 1690815433909,
+            "description": "Open https://falgsc.eu.org/",
+            "stage": "finished",
+            "status": "BROKEN",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "error_screenshot_OpenUrlStep",
+                    "type": "image/png",
+                    "source": "6df009aa-10f7-46d5-9f7c-e48c3c4b170d-attachment.png"
+                },
+                {
+                    "name": "error.log",
+                    "type": "text/json",
+                    "source": "5db51eaf-2c29-4c8f-99b8-180323d4236b-attachment.json"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": true,
+                "message": "***UNHANDLED EXCEPTION*** \r\n This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException",
+                "trace": "java.lang.NullPointerException\r\n\tat java.util.Properties$LineReader.readLine(Properties.java:434)\r\n\tat java.util.Properties.load0(Properties.java:353)\r\n\tat java.util.Properties.load(Properties.java:341)\r\n\tat org.webrtc.kite.telemed.steps.OpenUrlStep.step(OpenUrlStep.java:47)\r\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\r\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\r\n\tat org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:750)\r\n"
+            }
+        },
+        {
+            "name": "ch115_WIN-25ed5 - 0: Open https://falgsc.eu.org//#/pocPJ/166",
+            "start": 1690815433910,
+            "stop": 1690815433910,
+            "description": "Open https://falgsc.eu.org//#/pocPJ/166",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-25ed5 - 0: Getting stats from [\"ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection\"]",
+            "start": 1690815433910,
+            "stop": 1690815433910,
+            "description": "Getting stats from [\"ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection\"]",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "Cleaning up and finishing the test",
+            "start": 1690815433911,
+            "stop": 1690815434589,
+            "description": "Cleaning up and finishing the test",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        }
+    ],
+    "attachments": [
+    ],
+    "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": true,
+        "message": "***UNHANDLED EXCEPTION*** \r\n This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException",
+        "trace": "java.lang.NullPointerException\r\n\tat java.util.Properties$LineReader.readLine(Properties.java:434)\r\n\tat java.util.Properties.load0(Properties.java:353)\r\n\tat java.util.Properties.load(Properties.java:341)\r\n\tat org.webrtc.kite.telemed.steps.OpenUrlStep.step(OpenUrlStep.java:47)\r\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\r\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\r\n\tat org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:750)\r\n"
+    },
+    "uuid": "d1451497-eccf-40b4-94e9-af8a995d7a7c",
+    "fullName": "org.webrtc.kite.telemed.KiteTelemedTest",
+    "historyId": "f96f3022-7c41-48bd-9465-7f82a0eea0f3",
+    "links": [
+    ],
+    "labels": [
+        {
+            "name": "package",
+            "value": "package org.webrtc.kite.telemed"
+        },
+        {
+            "name": "testClass",
+            "value": "class org.webrtc.kite.telemed.KiteTelemedTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "execute"
+        },
+        {
+            "name": "host",
+            "value": "normalbook"
+        },
+        {
+            "name": "suite",
+            "value": "Telemed Test  (2023-07-31-165710)"
+        },
+        {
+            "name": "parentSuite",
+            "value": "Telemed  [2023-07-31-165710] (2023-07-31-165710)"
+        }
+    ]
+}

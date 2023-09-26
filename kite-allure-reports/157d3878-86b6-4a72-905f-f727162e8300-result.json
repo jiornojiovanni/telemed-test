@@ -1,0 +1,377 @@
+
+{
+    "name": "WIN_ch-WIN_ch-WIN_ch-WIN_ch (2023-07-26-182258) - 0",
+    "start": 1690388580966,
+    "stop": 1690388581876,
+    "description": "WIN_ch-WIN_ch-WIN_ch-WIN_ch (2023-07-26-182258)",
+    "stage": "finished",
+    "status": "BROKEN",
+    "parameters": [
+    ],
+    "steps": [
+        {
+            "name": "Filling out reports, handling payload, creating runners..",
+            "start": 1690388578210,
+            "stop": 1690388580964,
+            "description": "Filling out reports, handling payload, creating runners..",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1690388578216,
+            "stop": 1690388580829,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1690388578216,
+            "stop": 1690388580946,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1690388578216,
+            "stop": 1690388580946,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1690388578216,
+            "stop": 1690388580947,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-f5879 - 3: Open https://google.com4cc25738-7106-4704-9902-8bf3d4b32339",
+            "start": 1690388580967,
+            "stop": 1690388581795,
+            "description": "Open https://google.com4cc25738-7106-4704-9902-8bf3d4b32339",
+            "stage": "finished",
+            "status": "BROKEN",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "error_screenshot_OpenUrlStep",
+                    "type": "image/png",
+                    "source": "e9313808-db94-4456-885a-35369f2bff7b-attachment.png"
+                },
+                {
+                    "name": "error.log",
+                    "type": "text/json",
+                    "source": "d0c48582-1267-4dfd-adab-4243d8a06a8f-attachment.json"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": true,
+                "message": "***UNHANDLED EXCEPTION*** \r\n This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException",
+                "trace": "org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED\n  (Session info: chrome=115.0.5790.110)\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'NORMALBOOK', ip: '192.168.178.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_372'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\\Users\\giann\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56657}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: f58794f91ba75a6bda3a4b89360...}\nSession ID: f58794f91ba75a6bda3a4b893605a25f\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat io.cosmosoftware.kite.pages.BasePage.loadPage(BasePage.java:221)\r\n\tat org.webrtc.kite.telemed.pages.MainPage.open(MainPage.java:16)\r\n\tat org.webrtc.kite.telemed.steps.OpenUrlStep.step(OpenUrlStep.java:28)\r\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\r\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\r\n\tat org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:750)\r\n"
+            }
+        },
+        {
+            "name": "ch115_WIN-f5879 - 3: MyFirstCheck compares two random values and pass if 99 < 99",
+            "start": 1690388581795,
+            "stop": 1690388581795,
+            "description": "MyFirstCheck compares two random values and pass if 99 < 99",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-cfd89 - 0: Open https://google.combbe56708-ee93-4706-a867-f5f1c999bd92",
+            "start": 1690388580966,
+            "stop": 1690388581862,
+            "description": "Open https://google.combbe56708-ee93-4706-a867-f5f1c999bd92",
+            "stage": "finished",
+            "status": "BROKEN",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "error_screenshot_OpenUrlStep",
+                    "type": "image/png",
+                    "source": "50d0498a-5eb3-49b2-8dd7-7dd94e11953f-attachment.png"
+                },
+                {
+                    "name": "error.log",
+                    "type": "text/json",
+                    "source": "e441079f-dedd-4425-8799-7dda7927d6f1-attachment.json"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": true,
+                "message": "***UNHANDLED EXCEPTION*** \r\n This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException",
+                "trace": "org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED\n  (Session info: chrome=115.0.5790.110)\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'NORMALBOOK', ip: '192.168.178.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_372'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\\Users\\giann\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56658}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: cfd89945cefee140284a7f5990c...}\nSession ID: cfd89945cefee140284a7f5990c73fbf\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat io.cosmosoftware.kite.pages.BasePage.loadPage(BasePage.java:221)\r\n\tat org.webrtc.kite.telemed.pages.MainPage.open(MainPage.java:16)\r\n\tat org.webrtc.kite.telemed.steps.OpenUrlStep.step(OpenUrlStep.java:28)\r\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\r\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\r\n\tat org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:750)\r\n"
+            }
+        },
+        {
+            "name": "ch115_WIN-cfd89 - 0: MyFirstCheck compares two random values and pass if 94 < 24",
+            "start": 1690388581864,
+            "stop": 1690388581864,
+            "description": "MyFirstCheck compares two random values and pass if 94 < 24",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-75d60 - 1: Open https://google.combbe56708-ee93-4706-a867-f5f1c999bd92",
+            "start": 1690388580966,
+            "stop": 1690388581871,
+            "description": "Open https://google.combbe56708-ee93-4706-a867-f5f1c999bd92",
+            "stage": "finished",
+            "status": "BROKEN",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "error_screenshot_OpenUrlStep",
+                    "type": "image/png",
+                    "source": "87dadae3-f910-4d62-87d7-625232daa338-attachment.png"
+                },
+                {
+                    "name": "error.log",
+                    "type": "text/json",
+                    "source": "b360c64b-a3c1-4452-9619-d4829865deda-attachment.json"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": true,
+                "message": "***UNHANDLED EXCEPTION*** \r\n This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException",
+                "trace": "org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED\n  (Session info: chrome=115.0.5790.110)\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'NORMALBOOK', ip: '192.168.178.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_372'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\\Users\\giann\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56656}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 75d6064fdfded4b40dc6ad71cf5...}\nSession ID: 75d6064fdfded4b40dc6ad71cf58b3c7\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat io.cosmosoftware.kite.pages.BasePage.loadPage(BasePage.java:221)\r\n\tat org.webrtc.kite.telemed.pages.MainPage.open(MainPage.java:16)\r\n\tat org.webrtc.kite.telemed.steps.OpenUrlStep.step(OpenUrlStep.java:28)\r\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\r\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\r\n\tat org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:750)\r\n"
+            }
+        },
+        {
+            "name": "ch115_WIN-75d60 - 1: MyFirstCheck compares two random values and pass if 19 < 64",
+            "start": 1690388581871,
+            "stop": 1690388581873,
+            "description": "MyFirstCheck compares two random values and pass if 19 < 64",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-1e569 - 2: Open https://google.com4cc25738-7106-4704-9902-8bf3d4b32339",
+            "start": 1690388580966,
+            "stop": 1690388581875,
+            "description": "Open https://google.com4cc25738-7106-4704-9902-8bf3d4b32339",
+            "stage": "finished",
+            "status": "BROKEN",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "error_screenshot_OpenUrlStep",
+                    "type": "image/png",
+                    "source": "c192a0b6-806f-46c8-b708-da5db1ce4a6f-attachment.png"
+                },
+                {
+                    "name": "error.log",
+                    "type": "text/json",
+                    "source": "8e6af0a1-1e6c-490d-99fa-93ca19331130-attachment.json"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": true,
+                "message": "***UNHANDLED EXCEPTION*** \r\n This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException",
+                "trace": "org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED\n  (Session info: chrome=115.0.5790.110)\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'NORMALBOOK', ip: '192.168.178.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_372'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\\Users\\giann\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56659}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 1e5692aa9e263cc490a1bba528f...}\nSession ID: 1e5692aa9e263cc490a1bba528f870de\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat io.cosmosoftware.kite.pages.BasePage.loadPage(BasePage.java:221)\r\n\tat org.webrtc.kite.telemed.pages.MainPage.open(MainPage.java:16)\r\n\tat org.webrtc.kite.telemed.steps.OpenUrlStep.step(OpenUrlStep.java:28)\r\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\r\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\r\n\tat org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:750)\r\n"
+            }
+        },
+        {
+            "name": "ch115_WIN-1e569 - 2: MyFirstCheck compares two random values and pass if 10 < 23",
+            "start": 1690388581875,
+            "stop": 1690388581875,
+            "description": "MyFirstCheck compares two random values and pass if 10 < 23",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "Cleaning up and finishing the test",
+            "start": 1690388581876,
+            "stop": 1690388583819,
+            "description": "Cleaning up and finishing the test",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        }
+    ],
+    "attachments": [
+    ],
+    "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": true,
+        "message": "***UNHANDLED EXCEPTION*** \r\n This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException",
+        "trace": "org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED\n  (Session info: chrome=115.0.5790.110)\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'NORMALBOOK', ip: '192.168.178.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_372'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\\Users\\giann\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56657}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: f58794f91ba75a6bda3a4b89360...}\nSession ID: f58794f91ba75a6bda3a4b893605a25f\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat io.cosmosoftware.kite.pages.BasePage.loadPage(BasePage.java:221)\r\n\tat org.webrtc.kite.telemed.pages.MainPage.open(MainPage.java:16)\r\n\tat org.webrtc.kite.telemed.steps.OpenUrlStep.step(OpenUrlStep.java:28)\r\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\r\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\r\n\tat org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:750)\r\n"
+    },
+    "uuid": "157d3878-86b6-4a72-905f-f727162e8300",
+    "fullName": "org.webrtc.kite.telemed.KiteTelemedTest",
+    "historyId": "ff00594b-4d3d-418a-ad10-a1959942f283",
+    "links": [
+    ],
+    "labels": [
+        {
+            "name": "package",
+            "value": "package org.webrtc.kite.telemed"
+        },
+        {
+            "name": "testClass",
+            "value": "class org.webrtc.kite.telemed.KiteTelemedTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "execute"
+        },
+        {
+            "name": "host",
+            "value": "normalbook"
+        },
+        {
+            "name": "suite",
+            "value": "Telemed Test  (2023-07-26-182258)"
+        },
+        {
+            "name": "parentSuite",
+            "value": "Telemed  [2023-07-26-182257] (2023-07-26-182257)"
+        }
+    ]
+}

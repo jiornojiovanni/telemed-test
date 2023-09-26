@@ -1,0 +1,577 @@
+
+{
+    "name": "WIN_ch-WIN_ch-WIN_ch-WIN_ch (2023-08-07-163235) - 0",
+    "start": 1691418758444,
+    "stop": 1691418767518,
+    "description": "WIN_ch-WIN_ch-WIN_ch-WIN_ch (2023-08-07-163235)",
+    "stage": "finished",
+    "status": "BROKEN",
+    "parameters": [
+    ],
+    "steps": [
+        {
+            "name": "Filling out reports, handling payload, creating runners..",
+            "start": 1691418755308,
+            "stop": 1691418758442,
+            "description": "Filling out reports, handling payload, creating runners..",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1691418755314,
+            "stop": 1691418758423,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1691418755314,
+            "stop": 1691418758423,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1691418755314,
+            "stop": 1691418758423,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1691418755314,
+            "stop": 1691418758423,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-da0b3 - 3: Open https://falgsc.eu.org/",
+            "start": 1691418758444,
+            "stop": 1691418760458,
+            "description": "Open https://falgsc.eu.org/",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-b993e - 1: Open https://falgsc.eu.org/",
+            "start": 1691418758444,
+            "stop": 1691418760460,
+            "description": "Open https://falgsc.eu.org/",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-f1a69 - 2: Open https://falgsc.eu.org/",
+            "start": 1691418758444,
+            "stop": 1691418760508,
+            "description": "Open https://falgsc.eu.org/",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-f2565 - 0: Open https://falgsc.eu.org/",
+            "start": 1691418758444,
+            "stop": 1691418760514,
+            "description": "Open https://falgsc.eu.org/",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-b993e - 1: Open https://falgsc.eu.org/#/pocPJ/",
+            "start": 1691418760460,
+            "stop": 1691418760676,
+            "description": "Open https://falgsc.eu.org/#/pocPJ/",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-da0b3 - 3: Open https://falgsc.eu.org/#/pocPJ/",
+            "start": 1691418760458,
+            "stop": 1691418760681,
+            "description": "Open https://falgsc.eu.org/#/pocPJ/",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-f2565 - 0: Open https://falgsc.eu.org/#/pocPJ/",
+            "start": 1691418760514,
+            "stop": 1691418760722,
+            "description": "Open https://falgsc.eu.org/#/pocPJ/",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-f1a69 - 2: Open https://falgsc.eu.org/#/pocPJ/",
+            "start": 1691418760508,
+            "stop": 1691418760723,
+            "description": "Open https://falgsc.eu.org/#/pocPJ/",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-da0b3 - 3: Getting stats from [\"ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection\"]",
+            "start": 1691418760681,
+            "stop": 1691418766741,
+            "description": "Getting stats from [\"ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection\"]",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "Stats(Raw)_ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection",
+                    "type": "text/json",
+                    "source": "7a3f3685-8d6d-47e7-af03-e6e0b244f7b4-attachment.json"
+                },
+                {
+                    "name": "Stats(Summary)_ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection",
+                    "type": "text/json",
+                    "source": "5f4c6034-3c43-4267-9347-77bcda6c73eb-attachment.json"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-f2565 - 0: Getting stats from [\"ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection\"]",
+            "start": 1691418760722,
+            "stop": 1691418766960,
+            "description": "Getting stats from [\"ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection\"]",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "Stats(Raw)_ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection",
+                    "type": "text/json",
+                    "source": "b0470f00-c54a-48f6-944a-e3cc013e1230-attachment.json"
+                },
+                {
+                    "name": "Stats(Summary)_ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection",
+                    "type": "text/json",
+                    "source": "f57f1286-d34d-4304-93c3-e408fe32bf74-attachment.json"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-f1a69 - 2: Getting stats from [\"ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection\"]",
+            "start": 1691418760723,
+            "stop": 1691418766996,
+            "description": "Getting stats from [\"ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection\"]",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "Stats(Raw)_ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection",
+                    "type": "text/json",
+                    "source": "f7b53e22-6562-49a9-bb1a-b814bba5963f-attachment.json"
+                },
+                {
+                    "name": "Stats(Summary)_ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection",
+                    "type": "text/json",
+                    "source": "a47edff6-15c9-41a3-91ee-83106bd318a9-attachment.json"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-b993e - 1: Getting stats from [\"ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection\"]",
+            "start": 1691418760677,
+            "stop": 1691418767079,
+            "description": "Getting stats from [\"ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection\"]",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "Stats(Raw)_ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection",
+                    "type": "text/json",
+                    "source": "a251611e-d151-4455-9a6d-20441723db2a-attachment.json"
+                },
+                {
+                    "name": "Stats(Summary)_ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection",
+                    "type": "text/json",
+                    "source": "ae27ce53-297c-47df-b192-789d3e11c8e3-attachment.json"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-da0b3 - 3: Closing visit",
+            "start": 1691418766741,
+            "stop": 1691418767363,
+            "description": "Closing visit",
+            "stage": "finished",
+            "status": "BROKEN",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "error_screenshot_CloseVisitStep",
+                    "type": "image/png",
+                    "source": "d677da68-7937-425d-9021-308bd1a4861d-attachment.png"
+                },
+                {
+                    "name": "error.log",
+                    "type": "text/json",
+                    "source": "a124e487-0a17-48ce-83a1-7f9b34746f3d-attachment.json"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": true,
+                "message": "***UNHANDLED EXCEPTION*** \r\n This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException",
+                "trace": "java.lang.NullPointerException\r\n\tat org.webrtc.kite.telemed.steps.CloseVisitStep.step(CloseVisitStep.java:19)\r\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\r\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\r\n\tat org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:750)\r\n"
+            }
+        },
+        {
+            "name": "ch115_WIN-f1a69 - 2: Closing visit",
+            "start": 1691418766996,
+            "stop": 1691418767369,
+            "description": "Closing visit",
+            "stage": "finished",
+            "status": "BROKEN",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "error_screenshot_CloseVisitStep",
+                    "type": "image/png",
+                    "source": "49ccab98-cd27-4e68-9dea-01cfced4b6e5-attachment.png"
+                },
+                {
+                    "name": "error.log",
+                    "type": "text/json",
+                    "source": "ae30251b-6a5a-4b08-b5fb-e078a901d89c-attachment.json"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": true,
+                "message": "***UNHANDLED EXCEPTION*** \r\n This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException",
+                "trace": "java.lang.NullPointerException\r\n\tat org.webrtc.kite.telemed.steps.CloseVisitStep.step(CloseVisitStep.java:19)\r\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\r\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\r\n\tat org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:750)\r\n"
+            }
+        },
+        {
+            "name": "ch115_WIN-f2565 - 0: Closing visit",
+            "start": 1691418766960,
+            "stop": 1691418767445,
+            "description": "Closing visit",
+            "stage": "finished",
+            "status": "BROKEN",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "error_screenshot_CloseVisitStep",
+                    "type": "image/png",
+                    "source": "3d467775-324b-4d18-bae5-7d989be7b758-attachment.png"
+                },
+                {
+                    "name": "error.log",
+                    "type": "text/json",
+                    "source": "08ee4950-d4ab-47da-a2bc-e4fe246df1f4-attachment.json"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": true,
+                "message": "***UNHANDLED EXCEPTION*** \r\n This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException",
+                "trace": "java.lang.NullPointerException\r\n\tat org.webrtc.kite.telemed.steps.CloseVisitStep.step(CloseVisitStep.java:19)\r\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\r\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\r\n\tat org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:750)\r\n"
+            }
+        },
+        {
+            "name": "ch115_WIN-b993e - 1: Closing visit",
+            "start": 1691418767080,
+            "stop": 1691418767518,
+            "description": "Closing visit",
+            "stage": "finished",
+            "status": "BROKEN",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "error_screenshot_CloseVisitStep",
+                    "type": "image/png",
+                    "source": "925016fd-1ac5-4ccd-8651-92c05b2193dc-attachment.png"
+                },
+                {
+                    "name": "error.log",
+                    "type": "text/json",
+                    "source": "d7352e12-d615-4742-a891-ab9c5ef7f54c-attachment.json"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": true,
+                "message": "***UNHANDLED EXCEPTION*** \r\n This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException",
+                "trace": "java.lang.NullPointerException\r\n\tat org.webrtc.kite.telemed.steps.CloseVisitStep.step(CloseVisitStep.java:19)\r\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\r\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\r\n\tat org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:750)\r\n"
+            }
+        },
+        {
+            "name": "Cleaning up and finishing the test",
+            "start": 1691418767522,
+            "stop": 1691418769904,
+            "description": "Cleaning up and finishing the test",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        }
+    ],
+    "attachments": [
+    ],
+    "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": true,
+        "message": "***UNHANDLED EXCEPTION*** \r\n This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException",
+        "trace": "java.lang.NullPointerException\r\n\tat org.webrtc.kite.telemed.steps.CloseVisitStep.step(CloseVisitStep.java:19)\r\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\r\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\r\n\tat org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:750)\r\n"
+    },
+    "uuid": "53acdbce-f07a-4d5b-b166-ccd88d8b0077",
+    "fullName": "org.webrtc.kite.telemed.KiteTelemedTest",
+    "historyId": "92857f16-d971-4ed0-936b-369c706bd909",
+    "links": [
+    ],
+    "labels": [
+        {
+            "name": "package",
+            "value": "package org.webrtc.kite.telemed"
+        },
+        {
+            "name": "testClass",
+            "value": "class org.webrtc.kite.telemed.KiteTelemedTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "execute"
+        },
+        {
+            "name": "host",
+            "value": "normalbook"
+        },
+        {
+            "name": "suite",
+            "value": "Telemed Test  (2023-08-07-163235)"
+        },
+        {
+            "name": "parentSuite",
+            "value": "Telemed  [2023-08-07-163235] (2023-08-07-163235)"
+        }
+    ]
+}

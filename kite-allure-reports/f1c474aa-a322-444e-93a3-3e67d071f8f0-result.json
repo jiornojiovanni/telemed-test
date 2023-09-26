@@ -1,0 +1,222 @@
+
+{
+    "name": "WIN_ch-WIN_ch (2023-07-30-163935) - 0",
+    "start": 1690727980415,
+    "stop": 1690727980417,
+    "description": "WIN_ch-WIN_ch (2023-07-30-163935)",
+    "stage": "finished",
+    "status": "FAILED",
+    "parameters": [
+    ],
+    "steps": [
+        {
+            "name": "Filling out reports, handling payload, creating runners..",
+            "start": 1690727975215,
+            "stop": 1690727980411,
+            "description": "Filling out reports, handling payload, creating runners..",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1690727975227,
+            "stop": 1690727980405,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "FAILED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "KiteGridException",
+                    "type": "text/plain",
+                    "source": "02d1d064-3834-4220-ba5a-01f770a8a809-attachment.plain"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "Exception while populating webdrivers: \r\norg.webrtc.kite.exception.KiteGridException: UnreachableBrowserException creating webdriver for \n{\"app\":false,\"kind\":\"browser\",\"logger\":{\"name\":\"org.webrtc.kite.config.client.Client\",\"debugEnabled\":true},\"count\":5,\"clientIndex\":0,\"fullReset\":false,\"jsonConfig\":{\"browserName\":{},\"platform\":{}},\"capability\":{\"headless\":false,\"windowSize\":\"1920,1200\",\"technologyPreview\":false,\"useFakeMedia\":true,\"flags\":[],\"maxInstances\":5,\"extraCapabilities\":{},\"gateway\":\"none\"},\"paas\":{\"specList\":[],\"networkProfile\":{\"corrupt\":0,\"delay\":0,\"cleanUpCommand\":\"\",\"bandwidth\":0,\"packetloss\":0,\"name\":\"NONE\",\"id\":\"\",\"duplicate\":0,\"command\":\"\"},\"availableSlots\":3,\"type\":\"local\",\"region\":\"NC\",\"url\":\"http://localhost:4444/wd/hub\"},\"name\":\"1\",\"networkProfile\":{\"corrupt\":0,\"delay\":0,\"cleanUpCommand\":\"\",\"bandwidth\":0,\"packetloss\":0,\"name\":\"\",\"id\":\"\",\"duplicate\":0,\"command\":\"\"},\"exclude\":false,\"browserSpecs\":{\"extension\":\"\",\"profile\":\"\",\"driverString\":\"-Dwebdriver.chrome.driver=./chromedriver\",\"browserName\":\"chrome\",\"deviceName\":\"unknown\",\"platform\":\"WINDOWS\"},\"region\":\"NC\"}:\nCould not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'NORMALBOOK', ip: '192.168.178.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_372'\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.webrtc.kite.config.client.Client.createWebDriver(Client.java:532)\r\n\tat org.webrtc.kite.tests.InitClientWebDriverStep.step(InitClientWebDriverStep.java:34)\r\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\r\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\r\n\tat org.webrtc.kite.tests.TestRunner.<init>(TestRunner.java:73)\r\n\tat org.webrtc.kite.tests.TestRunnerCreator.call(TestRunnerCreator.java:33)\r\n\tat org.webrtc.kite.tests.TestRunnerCreator.call(TestRunnerCreator.java:12)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:750)\r\n"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1690727975226,
+            "stop": 1690727980408,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "FAILED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "KiteGridException",
+                    "type": "text/plain",
+                    "source": "5716cc26-c057-4afa-9b80-87fa8f2a6cd0-attachment.plain"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "Exception while populating webdrivers: \r\norg.webrtc.kite.exception.KiteGridException: UnreachableBrowserException creating webdriver for \n{\"app\":false,\"kind\":\"browser\",\"logger\":{\"name\":\"org.webrtc.kite.config.client.Client\",\"debugEnabled\":true},\"count\":5,\"clientIndex\":0,\"fullReset\":false,\"jsonConfig\":{\"browserName\":{},\"platform\":{}},\"capability\":{\"headless\":false,\"windowSize\":\"1920,1200\",\"technologyPreview\":false,\"useFakeMedia\":true,\"flags\":[],\"maxInstances\":5,\"extraCapabilities\":{},\"gateway\":\"none\"},\"paas\":{\"specList\":[],\"networkProfile\":{\"corrupt\":0,\"delay\":0,\"cleanUpCommand\":\"\",\"bandwidth\":0,\"packetloss\":0,\"name\":\"NONE\",\"id\":\"\",\"duplicate\":0,\"command\":\"\"},\"availableSlots\":3,\"type\":\"local\",\"region\":\"NC\",\"url\":\"http://localhost:4444/wd/hub\"},\"name\":\"0\",\"networkProfile\":{\"corrupt\":0,\"delay\":0,\"cleanUpCommand\":\"\",\"bandwidth\":0,\"packetloss\":0,\"name\":\"\",\"id\":\"\",\"duplicate\":0,\"command\":\"\"},\"exclude\":false,\"browserSpecs\":{\"extension\":\"\",\"profile\":\"\",\"driverString\":\"-Dwebdriver.chrome.driver=./chromedriver\",\"browserName\":\"chrome\",\"deviceName\":\"unknown\",\"platform\":\"WINDOWS\"},\"region\":\"NC\"}:\nCould not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'NORMALBOOK', ip: '192.168.178.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_372'\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.webrtc.kite.config.client.Client.createWebDriver(Client.java:532)\r\n\tat org.webrtc.kite.tests.InitClientWebDriverStep.step(InitClientWebDriverStep.java:34)\r\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\r\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\r\n\tat org.webrtc.kite.tests.TestRunner.<init>(TestRunner.java:73)\r\n\tat org.webrtc.kite.tests.TestRunnerCreator.call(TestRunnerCreator.java:33)\r\n\tat org.webrtc.kite.tests.TestRunnerCreator.call(TestRunnerCreator.java:12)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:750)\r\n"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver) - 0: Open https://falgsc.eu.org",
+            "start": 1690727980415,
+            "stop": 1690727980416,
+            "description": "Open https://falgsc.eu.org",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver) - 1: Open https://falgsc.eu.org",
+            "start": 1690727980415,
+            "stop": 1690727980416,
+            "description": "Open https://falgsc.eu.org",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver) - 0: Open https://falgsc.eu.org/#/pocPJ/167",
+            "start": 1690727980416,
+            "stop": 1690727980416,
+            "description": "Open https://falgsc.eu.org/#/pocPJ/167",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver) - 1: Open https://falgsc.eu.org/#/pocPJ/167",
+            "start": 1690727980416,
+            "stop": 1690727980417,
+            "description": "Open https://falgsc.eu.org/#/pocPJ/167",
+            "stage": "finished",
+            "status": "SKIPPED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "Cleaning up and finishing the test",
+            "start": 1690727980418,
+            "stop": 1690727980424,
+            "description": "Cleaning up and finishing the test",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        }
+    ],
+    "attachments": [
+    ],
+    "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Exception while populating webdrivers: \r\norg.webrtc.kite.exception.KiteGridException: UnreachableBrowserException creating webdriver for \n{\"app\":false,\"kind\":\"browser\",\"logger\":{\"name\":\"org.webrtc.kite.config.client.Client\",\"debugEnabled\":true},\"count\":5,\"clientIndex\":0,\"fullReset\":false,\"jsonConfig\":{\"browserName\":{},\"platform\":{}},\"capability\":{\"headless\":false,\"windowSize\":\"1920,1200\",\"technologyPreview\":false,\"useFakeMedia\":true,\"flags\":[],\"maxInstances\":5,\"extraCapabilities\":{},\"gateway\":\"none\"},\"paas\":{\"specList\":[],\"networkProfile\":{\"corrupt\":0,\"delay\":0,\"cleanUpCommand\":\"\",\"bandwidth\":0,\"packetloss\":0,\"name\":\"NONE\",\"id\":\"\",\"duplicate\":0,\"command\":\"\"},\"availableSlots\":3,\"type\":\"local\",\"region\":\"NC\",\"url\":\"http://localhost:4444/wd/hub\"},\"name\":\"1\",\"networkProfile\":{\"corrupt\":0,\"delay\":0,\"cleanUpCommand\":\"\",\"bandwidth\":0,\"packetloss\":0,\"name\":\"\",\"id\":\"\",\"duplicate\":0,\"command\":\"\"},\"exclude\":false,\"browserSpecs\":{\"extension\":\"\",\"profile\":\"\",\"driverString\":\"-Dwebdriver.chrome.driver=./chromedriver\",\"browserName\":\"chrome\",\"deviceName\":\"unknown\",\"platform\":\"WINDOWS\"},\"region\":\"NC\"}:\nCould not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'NORMALBOOK', ip: '192.168.178.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_372'\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.webrtc.kite.config.client.Client.createWebDriver(Client.java:532)\r\n\tat org.webrtc.kite.tests.InitClientWebDriverStep.step(InitClientWebDriverStep.java:34)\r\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\r\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\r\n\tat org.webrtc.kite.tests.TestRunner.<init>(TestRunner.java:73)\r\n\tat org.webrtc.kite.tests.TestRunnerCreator.call(TestRunnerCreator.java:33)\r\n\tat org.webrtc.kite.tests.TestRunnerCreator.call(TestRunnerCreator.java:12)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:750)\r\n"
+    },
+    "uuid": "f1c474aa-a322-444e-93a3-3e67d071f8f0",
+    "fullName": "org.webrtc.kite.telemed.KiteTelemedTest",
+    "historyId": "566f2b35-34da-43a3-a45c-00a6b81724ff",
+    "links": [
+    ],
+    "labels": [
+        {
+            "name": "package",
+            "value": "package org.webrtc.kite.telemed"
+        },
+        {
+            "name": "testClass",
+            "value": "class org.webrtc.kite.telemed.KiteTelemedTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "execute"
+        },
+        {
+            "name": "host",
+            "value": "normalbook"
+        },
+        {
+            "name": "suite",
+            "value": "Telemed Test  (2023-07-30-163935)"
+        },
+        {
+            "name": "parentSuite",
+            "value": "Telemed  [2023-07-30-163934] (2023-07-30-163934)"
+        }
+    ]
+}

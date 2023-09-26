@@ -1,0 +1,272 @@
+
+{
+    "name": "WIN_ch-WIN_ch (2023-07-30-183322) - 0",
+    "start": 1690734805031,
+    "stop": 1690734813019,
+    "description": "WIN_ch-WIN_ch (2023-07-30-183322)",
+    "stage": "finished",
+    "status": "PASSED",
+    "parameters": [
+    ],
+    "steps": [
+        {
+            "name": "Filling out reports, handling payload, creating runners..",
+            "start": 1690734802302,
+            "stop": 1690734805029,
+            "description": "Filling out reports, handling payload, creating runners..",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1690734802314,
+            "stop": 1690734805008,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1690734802316,
+            "stop": 1690734805008,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-c0c30 - 0: Open https://falgsc.eu.org/",
+            "start": 1690734805033,
+            "stop": 1690734806567,
+            "description": "Open https://falgsc.eu.org/",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-a72f1 - 1: Open https://falgsc.eu.org/",
+            "start": 1690734805033,
+            "stop": 1690734806645,
+            "description": "Open https://falgsc.eu.org/",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-a72f1 - 1: Open https://falgsc.eu.org//#/pocPJ/166",
+            "start": 1690734806646,
+            "stop": 1690734807596,
+            "description": "Open https://falgsc.eu.org//#/pocPJ/166",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-c0c30 - 0: Open https://falgsc.eu.org//#/pocPJ/166",
+            "start": 1690734806567,
+            "stop": 1690734807612,
+            "description": "Open https://falgsc.eu.org//#/pocPJ/166",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-c0c30 - 0: Getting stats from [\"ng.getComponent($('app-videocall-pj')[0]).peer\"]",
+            "start": 1690734807612,
+            "stop": 1690734813016,
+            "description": "Getting stats from [\"ng.getComponent($('app-videocall-pj')[0]).peer\"]",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "Stats(Raw)_ng.getComponent($('app-videocall-pj')[0]).peer",
+                    "type": "text/json",
+                    "source": "ac0f9a3e-c614-4029-b4cc-9204d1d45916-attachment.json"
+                },
+                {
+                    "name": "Stats(Summary)_ng.getComponent($('app-videocall-pj')[0]).peer",
+                    "type": "text/json",
+                    "source": "445762c6-0776-4f9c-bccb-e48142fec9c8-attachment.json"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-a72f1 - 1: Getting stats from [\"ng.getComponent($('app-videocall-pj')[0]).peer\"]",
+            "start": 1690734807597,
+            "stop": 1690734813019,
+            "description": "Getting stats from [\"ng.getComponent($('app-videocall-pj')[0]).peer\"]",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "Stats(Raw)_ng.getComponent($('app-videocall-pj')[0]).peer",
+                    "type": "text/json",
+                    "source": "aaa01e15-039b-4539-847e-43e1866dd1df-attachment.json"
+                },
+                {
+                    "name": "Stats(Summary)_ng.getComponent($('app-videocall-pj')[0]).peer",
+                    "type": "text/json",
+                    "source": "a9884008-f6a0-4d47-b12a-95ade05f58e5-attachment.json"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "Cleaning up and finishing the test",
+            "start": 1690734813021,
+            "stop": 1690734813854,
+            "description": "Cleaning up and finishing the test",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        }
+    ],
+    "attachments": [
+    ],
+    "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "The test has passed successfully!"
+    },
+    "uuid": "a64328d2-53af-464c-8552-4d5d2c3a2423",
+    "fullName": "org.webrtc.kite.telemed.KiteTelemedTest",
+    "historyId": "c1260c8c-3f91-490c-8d5f-ba64295b93da",
+    "links": [
+    ],
+    "labels": [
+        {
+            "name": "package",
+            "value": "package org.webrtc.kite.telemed"
+        },
+        {
+            "name": "testClass",
+            "value": "class org.webrtc.kite.telemed.KiteTelemedTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "execute"
+        },
+        {
+            "name": "host",
+            "value": "normalbook"
+        },
+        {
+            "name": "suite",
+            "value": "Telemed Test  (2023-07-30-183322)"
+        },
+        {
+            "name": "parentSuite",
+            "value": "Telemed  [2023-07-30-183321] (2023-07-30-183321)"
+        }
+    ]
+}

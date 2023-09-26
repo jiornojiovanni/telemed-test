@@ -1,0 +1,51 @@
+
+{
+    "Starting Timestamp": "2023-08-01 18-03-52",
+    "Ending Timestamp": "2023-08-01 18-03-56",
+    "Connected": true,
+    "Room": "https://falgsc.eu.org/#/pocPJ/186",
+    "Batch": "0",
+    "Network Profile": "",
+    "Region Id": "NC",
+    "Itinerary": "0",
+    "remote_IP": "192.168.178.64",
+    "avg_current_rtt(ms)": 0.5,
+    "inbound": {
+        "audio": [
+            {
+                "streamId": "IT01A983834356",
+                "avg_rcv_bitrate(kbps)": "7",
+                "avg_audio_level(dB)": "0",
+                "total_packets_lost": "0",
+                "packets_lost(%)": "0%",
+                "avg_audio_jitter(ms)": "0"
+            }
+        ],
+        "video": [
+            {
+                "streamId": "IT01V1797703421",
+                "avg_rcv_bitrate(kbps)": "443",
+                "frames_rcv": "75",
+                "avg_frame_rate(fps)": "19",
+                "total_packets_lost": "0",
+                "packets_lost(%)": "0%"
+            }
+        ]
+    },
+    "outbound": {
+        "audio": [
+            {
+                "streamId": "OT01A2478950762",
+                "avg_sent_bitrate(kbps)": "16"
+            }
+        ],
+        "video": [
+            {
+                "streamId": "OT01V2831040641",
+                "avg_sent_bitrate(kbps)": "193",
+                "frames_sent": "74",
+                "avg_frame_rate(fps)": "19"
+            }
+        ]
+    }
+}

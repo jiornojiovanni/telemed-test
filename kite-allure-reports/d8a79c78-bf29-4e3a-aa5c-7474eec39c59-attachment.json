@@ -1,0 +1,418 @@
+
+{
+    "Connected": true,
+    "Room": "https://falgsc.eu.org/#/pocPJ/229",
+    "StatsArray": [
+        {
+            "candidate-pair": {
+                "CPTH32rtfL_EX5ddk/X": {
+                    "id": "CPTH32rtfL_EX5ddk/X",
+                    "timestamp": "1691420747585",
+                    "localCandidateId": "ITH32rtfL",
+                    "remoteCandidateId": "IEX5ddk/X",
+                    "state": "succeeded",
+                    "priority": "9115038255631186944",
+                    "nominated": "true",
+                    "bytesSent": "85830",
+                    "currentRoundTripTime": "0",
+                    "totalRoundTripTime": "0.008",
+                    "bytesReceived": "45739"
+                },
+                "CPTH32rtfL_hjkyIWSW": {
+                    "id": "CPTH32rtfL_hjkyIWSW",
+                    "timestamp": "1691420747585",
+                    "localCandidateId": "ITH32rtfL",
+                    "remoteCandidateId": "IhjkyIWSW",
+                    "state": "waiting",
+                    "priority": "7241540810645060608",
+                    "nominated": "false",
+                    "bytesSent": "0",
+                    "currentRoundTripTime": "NA",
+                    "totalRoundTripTime": "0",
+                    "bytesReceived": "0"
+                }
+            },
+            "codec": {
+                "CIT01_111_minptime=10;useinbandfec=1": {
+                    "id": "CIT01_111_minptime=10;useinbandfec=1",
+                    "timestamp": "1691420747585",
+                    "payloadType": "111",
+                    "clockRate": "48000",
+                    "channels": "2",
+                    "codecType": "NA",
+                    "mimeType": "audio/opus",
+                    "sdpFmtpLine": "minptime=10;useinbandfec=1"
+                },
+                "CIT01_96": {
+                    "id": "CIT01_96",
+                    "timestamp": "1691420747585",
+                    "payloadType": "96",
+                    "clockRate": "90000",
+                    "channels": "NA",
+                    "codecType": "NA",
+                    "mimeType": "video/VP8",
+                    "sdpFmtpLine": "NA"
+                },
+                "COT01_111_minptime=10;useinbandfec=1": {
+                    "id": "COT01_111_minptime=10;useinbandfec=1",
+                    "timestamp": "1691420747585",
+                    "payloadType": "111",
+                    "clockRate": "48000",
+                    "channels": "2",
+                    "codecType": "NA",
+                    "mimeType": "audio/opus",
+                    "sdpFmtpLine": "minptime=10;useinbandfec=1"
+                },
+                "COT01_96": {
+                    "id": "COT01_96",
+                    "timestamp": "1691420747585",
+                    "payloadType": "96",
+                    "clockRate": "90000",
+                    "channels": "NA",
+                    "codecType": "NA",
+                    "mimeType": "video/VP8",
+                    "sdpFmtpLine": "NA"
+                }
+            },
+            "inbound-rtp": {
+                "IT01A904974804": {
+                    "id": "IT01A904974804",
+                    "timestamp": "1691420747585",
+                    "ssrc": "904974804",
+                    "kind": "audio",
+                    "transportId": "T01",
+                    "codecId": "CIT01_111_minptime=10;useinbandfec=1",
+                    "packetsReceived": "70",
+                    "packetsLost": "0",
+                    "packetsDiscarded": "0",
+                    "jitter": "0",
+                    "bytesReceived": "4732",
+                    "receiverId": "NA",
+                    "remoteId": "NA",
+                    "nackCount": "NA",
+                    "audioLevel": "0",
+                    "framesDecoded": "NA",
+                    "framesReceived": "NA",
+                    "framesDropped": "NA",
+                    "partialFramesLost": "NA",
+                    "totalAudioEnergy": "0",
+                    "totalSamplesDuration": "1.430000000000001"
+                },
+                "IT01V3404386165": {
+                    "id": "IT01V3404386165",
+                    "timestamp": "1691420747585",
+                    "ssrc": "3404386165",
+                    "kind": "video",
+                    "transportId": "T01",
+                    "codecId": "CIT01_96",
+                    "packetsReceived": "54",
+                    "packetsLost": "0",
+                    "packetsDiscarded": "NA",
+                    "jitter": "0",
+                    "bytesReceived": "32205",
+                    "receiverId": "NA",
+                    "remoteId": "NA",
+                    "nackCount": "0",
+                    "audioLevel": "NA",
+                    "framesDecoded": "26",
+                    "framesReceived": "26",
+                    "framesDropped": "0",
+                    "partialFramesLost": "NA",
+                    "totalAudioEnergy": "NA",
+                    "totalSamplesDuration": "NA"
+                }
+            },
+            "local-candidate": {
+                "ITH32rtfL": {
+                    "id": "ITH32rtfL",
+                    "timestamp": "1691420747585",
+                    "address": "192.168.178.64",
+                    "port": "64749",
+                    "protocol": "udp",
+                    "candidateType": "host",
+                    "url": "NA"
+                }
+            },
+            "outbound-rtp": {
+                "OT01A241123336": {
+                    "id": "OT01A241123336",
+                    "timestamp": "1691420747585",
+                    "ssrc": "241123336",
+                    "kind": "audio",
+                    "transportId": "T01",
+                    "codecId": "COT01_111_minptime=10;useinbandfec=1",
+                    "packetsSent": "70",
+                    "bytesSent": "4715",
+                    "senderId": "NA",
+                    "remoteId": "NA",
+                    "nackCount": "0",
+                    "framesEncoded": "NA",
+                    "framesSent": "NA",
+                    "framesPerSecond": "NA"
+                },
+                "OT01V1824764598": {
+                    "id": "OT01V1824764598",
+                    "timestamp": "1691420747585",
+                    "ssrc": "1824764598",
+                    "kind": "video",
+                    "transportId": "T01",
+                    "codecId": "COT01_96",
+                    "packetsSent": "82",
+                    "bytesSent": "71449",
+                    "senderId": "NA",
+                    "remoteId": "RIV1824764598",
+                    "nackCount": "0",
+                    "framesEncoded": "27",
+                    "framesSent": "27",
+                    "framesPerSecond": "20"
+                }
+            },
+            "peer-connection": {
+                "P": {
+                    "id": "P",
+                    "timestamp": "1691420747585",
+                    "dataChannelsOpened": "1",
+                    "dataChannelsClosed": "0"
+                }
+            },
+            "remote-candidate": {
+                "IEX5ddk/X": {
+                    "id": "IEX5ddk/X",
+                    "timestamp": "1691420747585",
+                    "address": "192.168.178.64",
+                    "port": "63056",
+                    "protocol": "udp",
+                    "candidateType": "host",
+                    "url": "NA"
+                },
+                "IhjkyIWSW": {
+                    "id": "IhjkyIWSW",
+                    "timestamp": "1691420747585",
+                    "address": "62.10.73.22",
+                    "port": "63056",
+                    "protocol": "udp",
+                    "candidateType": "srflx",
+                    "url": "NA"
+                }
+            },
+            "transport": {
+                "T01": {
+                    "id": "T01",
+                    "timestamp": "1691420747585",
+                    "bytesSent": "85830",
+                    "bytesReceived": "45739",
+                    "selectedCandidatePairId": "CPTH32rtfL_EX5ddk/X",
+                    "localCertificateId": "CFB0:BF:50:EC:62:DF:DD:49:44:BF:00:1E:6F:D8:29:BB:45:87:1D:E2:D3:AC:68:CC:B8:BC:E2:26:F8:AE:8E:A0",
+                    "remoteCertificateId": "CF24:57:E9:1C:44:57:5B:E2:E5:D8:80:11:05:94:0B:28:3B:A8:C7:D6:C5:BD:30:43:96:3E:36:B0:C2:FC:B2:E0"
+                }
+            }
+        },
+        {
+            "candidate-pair": {
+                "CPTH32rtfL_EX5ddk/X": {
+                    "id": "CPTH32rtfL_EX5ddk/X",
+                    "timestamp": "1691420749703",
+                    "localCandidateId": "ITH32rtfL",
+                    "remoteCandidateId": "IEX5ddk/X",
+                    "state": "succeeded",
+                    "priority": "9115038255631186944",
+                    "nominated": "true",
+                    "bytesSent": "216060",
+                    "currentRoundTripTime": "0.001",
+                    "totalRoundTripTime": "0.009",
+                    "bytesReceived": "112016"
+                },
+                "CPTH32rtfL_hjkyIWSW": {
+                    "id": "CPTH32rtfL_hjkyIWSW",
+                    "timestamp": "1691420749703",
+                    "localCandidateId": "ITH32rtfL",
+                    "remoteCandidateId": "IhjkyIWSW",
+                    "state": "waiting",
+                    "priority": "7241540810645060608",
+                    "nominated": "false",
+                    "bytesSent": "0",
+                    "currentRoundTripTime": "NA",
+                    "totalRoundTripTime": "0",
+                    "bytesReceived": "0"
+                }
+            },
+            "codec": {
+                "CIT01_111_minptime=10;useinbandfec=1": {
+                    "id": "CIT01_111_minptime=10;useinbandfec=1",
+                    "timestamp": "1691420749703",
+                    "payloadType": "111",
+                    "clockRate": "48000",
+                    "channels": "2",
+                    "codecType": "NA",
+                    "mimeType": "audio/opus",
+                    "sdpFmtpLine": "minptime=10;useinbandfec=1"
+                },
+                "CIT01_96": {
+                    "id": "CIT01_96",
+                    "timestamp": "1691420749703",
+                    "payloadType": "96",
+                    "clockRate": "90000",
+                    "channels": "NA",
+                    "codecType": "NA",
+                    "mimeType": "video/VP8",
+                    "sdpFmtpLine": "NA"
+                },
+                "COT01_111_minptime=10;useinbandfec=1": {
+                    "id": "COT01_111_minptime=10;useinbandfec=1",
+                    "timestamp": "1691420749703",
+                    "payloadType": "111",
+                    "clockRate": "48000",
+                    "channels": "2",
+                    "codecType": "NA",
+                    "mimeType": "audio/opus",
+                    "sdpFmtpLine": "minptime=10;useinbandfec=1"
+                },
+                "COT01_96": {
+                    "id": "COT01_96",
+                    "timestamp": "1691420749703",
+                    "payloadType": "96",
+                    "clockRate": "90000",
+                    "channels": "NA",
+                    "codecType": "NA",
+                    "mimeType": "video/VP8",
+                    "sdpFmtpLine": "NA"
+                }
+            },
+            "inbound-rtp": {
+                "IT01A904974804": {
+                    "id": "IT01A904974804",
+                    "timestamp": "1691420749703",
+                    "ssrc": "904974804",
+                    "kind": "audio",
+                    "transportId": "T01",
+                    "codecId": "CIT01_111_minptime=10;useinbandfec=1",
+                    "packetsReceived": "176",
+                    "packetsLost": "0",
+                    "packetsDiscarded": "0",
+                    "jitter": "0",
+                    "bytesReceived": "11878",
+                    "receiverId": "NA",
+                    "remoteId": "ROA904974804",
+                    "nackCount": "NA",
+                    "audioLevel": "0",
+                    "framesDecoded": "NA",
+                    "framesReceived": "NA",
+                    "framesDropped": "NA",
+                    "partialFramesLost": "NA",
+                    "totalAudioEnergy": "0",
+                    "totalSamplesDuration": "3.5499999999999683"
+                },
+                "IT01V3404386165": {
+                    "id": "IT01V3404386165",
+                    "timestamp": "1691420749703",
+                    "ssrc": "3404386165",
+                    "kind": "video",
+                    "transportId": "T01",
+                    "codecId": "CIT01_96",
+                    "packetsReceived": "125",
+                    "packetsLost": "0",
+                    "packetsDiscarded": "NA",
+                    "jitter": "0",
+                    "bytesReceived": "82842",
+                    "receiverId": "NA",
+                    "remoteId": "NA",
+                    "nackCount": "0",
+                    "audioLevel": "NA",
+                    "framesDecoded": "68",
+                    "framesReceived": "68",
+                    "framesDropped": "0",
+                    "partialFramesLost": "NA",
+                    "totalAudioEnergy": "NA",
+                    "totalSamplesDuration": "NA"
+                }
+            },
+            "local-candidate": {
+                "ITH32rtfL": {
+                    "id": "ITH32rtfL",
+                    "timestamp": "1691420749703",
+                    "address": "192.168.178.64",
+                    "port": "64749",
+                    "protocol": "udp",
+                    "candidateType": "host",
+                    "url": "NA"
+                }
+            },
+            "outbound-rtp": {
+                "OT01A241123336": {
+                    "id": "OT01A241123336",
+                    "timestamp": "1691420749703",
+                    "ssrc": "241123336",
+                    "kind": "audio",
+                    "transportId": "T01",
+                    "codecId": "COT01_111_minptime=10;useinbandfec=1",
+                    "packetsSent": "176",
+                    "bytesSent": "11198",
+                    "senderId": "NA",
+                    "remoteId": "RIA241123336",
+                    "nackCount": "0",
+                    "framesEncoded": "NA",
+                    "framesSent": "NA",
+                    "framesPerSecond": "NA"
+                },
+                "OT01V1824764598": {
+                    "id": "OT01V1824764598",
+                    "timestamp": "1691420749703",
+                    "ssrc": "1824764598",
+                    "kind": "video",
+                    "transportId": "T01",
+                    "codecId": "COT01_96",
+                    "packetsSent": "207",
+                    "bytesSent": "184992",
+                    "senderId": "NA",
+                    "remoteId": "RIV1824764598",
+                    "nackCount": "0",
+                    "framesEncoded": "69",
+                    "framesSent": "69",
+                    "framesPerSecond": "19"
+                }
+            },
+            "peer-connection": {
+                "P": {
+                    "id": "P",
+                    "timestamp": "1691420749703",
+                    "dataChannelsOpened": "1",
+                    "dataChannelsClosed": "0"
+                }
+            },
+            "remote-candidate": {
+                "IEX5ddk/X": {
+                    "id": "IEX5ddk/X",
+                    "timestamp": "1691420749703",
+                    "address": "192.168.178.64",
+                    "port": "63056",
+                    "protocol": "udp",
+                    "candidateType": "host",
+                    "url": "NA"
+                },
+                "IhjkyIWSW": {
+                    "id": "IhjkyIWSW",
+                    "timestamp": "1691420749703",
+                    "address": "62.10.73.22",
+                    "port": "63056",
+                    "protocol": "udp",
+                    "candidateType": "srflx",
+                    "url": "NA"
+                }
+            },
+            "transport": {
+                "T01": {
+                    "id": "T01",
+                    "timestamp": "1691420749703",
+                    "bytesSent": "216060",
+                    "bytesReceived": "112016",
+                    "selectedCandidatePairId": "CPTH32rtfL_EX5ddk/X",
+                    "localCertificateId": "CFB0:BF:50:EC:62:DF:DD:49:44:BF:00:1E:6F:D8:29:BB:45:87:1D:E2:D3:AC:68:CC:B8:BC:E2:26:F8:AE:8E:A0",
+                    "remoteCertificateId": "CF24:57:E9:1C:44:57:5B:E2:E5:D8:80:11:05:94:0B:28:3B:A8:C7:D6:C5:BD:30:43:96:3E:36:B0:C2:FC:B2:E0"
+                }
+            }
+        }
+    ],
+    "Network Profile": "",
+    "Region Id": "NC",
+    "Itinerary": "0"
+}

@@ -1,0 +1,1133 @@
+2023-08-07 16:32:35,079 INFO  - Reading 'C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test\.\configs\telemed.config.json' ...
+ 2023-08-07 16:32:35,282 INFO  - new RoomManager(2 max per room) for https://falgsc.eu.org/
+ 2023-08-07 16:32:35,282 INFO  - Please make sure that you have enough room for all users.
+ 2023-08-07 16:32:35,282 INFO  - getRoomUrl(random) function, with random value = true/false, will give you the base url with or without a randomized ID.
+ 2023-08-07 16:32:35,283 INFO  - Finished reading the configuration file
+ 2023-08-07 16:32:35,284 INFO  - Creating report folder if not exist at :C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test/kite-allure-reports/
+ 2023-08-07 16:32:35,287 INFO  - Running {"type":"interop","name":"Telemed Test %ts","testImpl":"org.webrtc.kite.telemed.KiteTelemedTest","description":"Telemed test description","tupleSize":4,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} ...
+ 2023-08-07 16:32:35,293 INFO  - Executing {"type":"interop","name":"Telemed Test %ts","testImpl":"org.webrtc.kite.telemed.KiteTelemedTest","description":"Telemed test description","tupleSize":4,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} for 1 browser tuples with size :4
+ 2023-08-07 16:32:35,297 INFO  - current phase in test manager has been set to DEFAULT
+ 2023-08-07 16:32:35,302 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 0
+           | Elapsed time: 0m0s (avg:0m0s)
+           | Running test case with ID: 0/1
+           | ETA (for Telemed Test %ts): Estimating..
+           |--------------------------------------------------
+ 2023-08-07 16:32:35,304 INFO  - execute(DEFAULT) for the test case: WIN_ch-WIN_ch-WIN_ch-WIN_ch (2023-08-07-163235)
+ 2023-08-07 16:32:35,306 INFO  - Not load test, init report for test
+ 2023-08-07 16:32:35,307 INFO  - Finished filling out initial report for phase 
+ 2023-08-07 16:32:35,308 INFO  - payload handling
+ 2023-08-07 16:32:35,308 INFO  - the payload is {"url":"https://falgsc.eu.org/","usersPerRoom":2,"getStats":{"enabled":true,"statsCollectionTime":2,"statsCollectionInterval":1,"peerConnections":["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"],"selectedStats":["inbound-rtp","outbound-rtp","local-candidate","remote-candidate","candidate-pair","stream","peer-connection","codec","track","transport"]}}
+ 2023-08-07 16:32:35,309 INFO  - Creating runners
+ 2023-08-07 16:32:35,310 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2023-08-07 16:32:35,310 INFO  - Start creating the TestRunner id 3 in 0ms
+ 2023-08-07 16:32:35,310 INFO  - Start creating the TestRunner id 2 in 0ms
+ 2023-08-07 16:32:35,311 INFO  - Start creating the TestRunner id 1 in 0ms
+ 2023-08-07 16:32:35,325 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"maxInstances":5,"extraCapabilities":{},"gateway":"none"},"paas":{"specList":[],"networkProfile":{"delay":0,"corrupt":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":1,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"delay":0,"corrupt":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","browserName":"chrome","deviceName":"unknown","platform":"WINDOWS"},"region":"NC"}
+ 2023-08-07 16:32:35,325 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"maxInstances":5,"extraCapabilities":{},"gateway":"none"},"paas":{"specList":[],"networkProfile":{"delay":0,"corrupt":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":1,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"1","networkProfile":{"delay":0,"corrupt":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","browserName":"chrome","deviceName":"unknown","platform":"WINDOWS"},"region":"NC"}
+ 2023-08-07 16:32:35,325 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"maxInstances":5,"extraCapabilities":{},"gateway":"none"},"paas":{"specList":[],"networkProfile":{"delay":0,"corrupt":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":1,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"3","networkProfile":{"delay":0,"corrupt":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","browserName":"chrome","deviceName":"unknown","platform":"WINDOWS"},"region":"NC"}
+ 2023-08-07 16:32:35,325 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"maxInstances":5,"extraCapabilities":{},"gateway":"none"},"paas":{"specList":[],"networkProfile":{"delay":0,"corrupt":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":1,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"2","networkProfile":{"delay":0,"corrupt":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","browserName":"chrome","deviceName":"unknown","platform":"WINDOWS"},"region":"NC"}
+ 2023-08-07 16:32:38,423 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2023-08-07 16:32:38,423 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2023-08-07 16:32:38,423 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2023-08-07 16:32:38,423 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2023-08-07 16:32:38,441 WARN  - User count is at max capacity for the current room, if you are putting more users than expected, please reconfigure. Either use random room id or preconfigured room list (ignore this warning if it's already the case).
+ 2023-08-07 16:32:38,442 INFO  - Starting the execution of the test runners in parallel 
+ 2023-08-07 16:32:38,443 INFO  - Start processing the TestRunner(DEFAULT) id 3 in 0ms
+ 2023-08-07 16:32:38,443 INFO  - Start processing the TestRunner(DEFAULT) id 2 in 0ms
+ 2023-08-07 16:32:38,443 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2023-08-07 16:32:38,443 INFO  - Start processing the TestRunner(DEFAULT) id 1 in 0ms
+ 2023-08-07 16:32:40,365 INFO  - ch115_WIN-f1a69 - 2: The visit is: 218
+ 2023-08-07 16:32:40,366 INFO  - ch115_WIN-f2565 - 0: The visit is: 219
+ 2023-08-07 16:32:40,457 INFO  - ch115_WIN-da0b3 - 3:  [PASSED] Open https://falgsc.eu.org/
+ 2023-08-07 16:32:40,458 INFO  - ch115_WIN-da0b3 - 3: visitid: 218
+ 2023-08-07 16:32:40,459 INFO  - ch115_WIN-b993e - 1:  [PASSED] Open https://falgsc.eu.org/
+ 2023-08-07 16:32:40,460 INFO  - ch115_WIN-b993e - 1: visitid: 219
+ 2023-08-07 16:32:40,507 INFO  - ch115_WIN-f1a69 - 2:  [PASSED] Open https://falgsc.eu.org/
+ 2023-08-07 16:32:40,508 INFO  - ch115_WIN-f1a69 - 2: visitid: 218
+ 2023-08-07 16:32:40,509 INFO  - ch115_WIN-f2565 - 0:  [PASSED] Open https://falgsc.eu.org/
+ 2023-08-07 16:32:40,514 INFO  - ch115_WIN-f2565 - 0: visitid: 219
+ 2023-08-07 16:32:40,675 INFO  - ch115_WIN-b993e - 1:  [PASSED] Open https://falgsc.eu.org/#/pocPJ/
+ 2023-08-07 16:32:40,678 INFO  - ch115_WIN-da0b3 - 3:  [PASSED] Open https://falgsc.eu.org/#/pocPJ/
+ 2023-08-07 16:32:40,721 INFO  - ch115_WIN-f2565 - 0:  [PASSED] Open https://falgsc.eu.org/#/pocPJ/
+ 2023-08-07 16:32:40,722 INFO  - ch115_WIN-f1a69 - 2:  [PASSED] Open https://falgsc.eu.org/#/pocPJ/
+ 2023-08-07 16:32:46,732 INFO  - ch115_WIN-da0b3 - 3:  [PASSED] Getting stats from ["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"]
+ 2023-08-07 16:32:46,957 INFO  - ch115_WIN-f2565 - 0:  [PASSED] Getting stats from ["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"]
+ 2023-08-07 16:32:46,991 INFO  - ch115_WIN-f1a69 - 2:  [PASSED] Getting stats from ["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"]
+ 2023-08-07 16:32:47,067 INFO  - ch115_WIN-b993e - 1:  [PASSED] Getting stats from ["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"]
+ 2023-08-07 16:32:47,345 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = java.lang.NullPointerException
+	at org.webrtc.kite.telemed.steps.CloseVisitStep.step(CloseVisitStep.java:19)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+ 2023-08-07 16:32:47,362 WARN  - ch115_WIN-da0b3 - 3: [SKIPPING] Get the browser console logs.
+ 2023-08-07 16:32:47,363 INFO  - ch115_WIN-da0b3 - 3:  [BROKEN] Closing visit
+ 2023-08-07 16:32:47,363 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = java.lang.NullPointerException
+	at org.webrtc.kite.telemed.steps.CloseVisitStep.step(CloseVisitStep.java:19)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+ 2023-08-07 16:32:47,367 WARN  - ch115_WIN-f1a69 - 2: [SKIPPING] Get the browser console logs.
+ 2023-08-07 16:32:47,369 INFO  - ch115_WIN-f1a69 - 2:  [BROKEN] Closing visit
+ 2023-08-07 16:32:47,432 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = java.lang.NullPointerException
+	at org.webrtc.kite.telemed.steps.CloseVisitStep.step(CloseVisitStep.java:19)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+ 2023-08-07 16:32:47,442 WARN  - ch115_WIN-f2565 - 0: [SKIPPING] Get the browser console logs.
+ 2023-08-07 16:32:47,444 INFO  - ch115_WIN-f2565 - 0:  [BROKEN] Closing visit
+ 2023-08-07 16:32:47,497 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = java.lang.NullPointerException
+	at org.webrtc.kite.telemed.steps.CloseVisitStep.step(CloseVisitStep.java:19)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+ 2023-08-07 16:32:47,506 WARN  - ch115_WIN-b993e - 1: [SKIPPING] Get the browser console logs.
+ 2023-08-07 16:32:47,511 INFO  - ch115_WIN-b993e - 1:  [BROKEN] Closing visit
+ 2023-08-07 16:32:47,518 INFO  - execute(DEFAULT) completed.
+ 2023-08-07 16:32:47,522 INFO  - Terminating, quiting webdriver
+ 2023-08-07 16:32:47,522 INFO  - Closing down webDrivers
+ 2023-08-07 16:32:49,908 INFO  - Test FAILED
+ 2023-08-07 16:32:49,909 INFO  - Matrix runner at last phase, ending. 
+ 2023-08-07 16:32:49,918 WARN  - Adding [0, 0, 0, 0] to retry list..
+ 2023-08-07 16:32:49,922 INFO  - Reading 'C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test\.\configs\telemed.config.json' ...
+ 2023-08-07 16:32:49,925 WARN  - Done! Some test cases might need to be rerun!
+ 2023-08-07 16:32:49,926 INFO  - Reading 'C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test\.\configs\telemed.config.json' ...
+ 2023-08-07 16:32:49,931 INFO  - shutdownExecutors() done.
+ 2023-08-07 16:33:41,321 INFO  - Reading 'C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test\.\configs\telemed.config.json' ...
+ 2023-08-07 16:33:41,502 INFO  - new RoomManager(2 max per room) for https://falgsc.eu.org/
+ 2023-08-07 16:33:41,502 INFO  - Please make sure that you have enough room for all users.
+ 2023-08-07 16:33:41,502 INFO  - getRoomUrl(random) function, with random value = true/false, will give you the base url with or without a randomized ID.
+ 2023-08-07 16:33:41,504 INFO  - Finished reading the configuration file
+ 2023-08-07 16:33:41,504 INFO  - Creating report folder if not exist at :C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test/kite-allure-reports/
+ 2023-08-07 16:33:41,510 INFO  - Running {"type":"interop","name":"Telemed Test %ts","testImpl":"org.webrtc.kite.telemed.KiteTelemedTest","description":"Telemed test description","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} ...
+ 2023-08-07 16:33:41,515 INFO  - Executing {"type":"interop","name":"Telemed Test %ts","testImpl":"org.webrtc.kite.telemed.KiteTelemedTest","description":"Telemed test description","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} for 1 browser tuples with size :2
+ 2023-08-07 16:33:41,518 INFO  - current phase in test manager has been set to DEFAULT
+ 2023-08-07 16:33:41,522 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 0
+           | Elapsed time: 0m0s (avg:0m0s)
+           | Running test case with ID: 0/1
+           | ETA (for Telemed Test %ts): Estimating..
+           |--------------------------------------------------
+ 2023-08-07 16:33:41,523 INFO  - execute(DEFAULT) for the test case: WIN_ch-WIN_ch (2023-08-07-163341)
+ 2023-08-07 16:33:41,525 INFO  - Not load test, init report for test
+ 2023-08-07 16:33:41,526 INFO  - Finished filling out initial report for phase 
+ 2023-08-07 16:33:41,527 INFO  - payload handling
+ 2023-08-07 16:33:41,528 INFO  - the payload is {"url":"https://falgsc.eu.org/","usersPerRoom":2,"getStats":{"enabled":true,"statsCollectionTime":2,"statsCollectionInterval":1,"peerConnections":["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"],"selectedStats":["inbound-rtp","outbound-rtp","local-candidate","remote-candidate","candidate-pair","stream","peer-connection","codec","track","transport"]}}
+ 2023-08-07 16:33:41,529 INFO  - Creating runners
+ 2023-08-07 16:33:41,531 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2023-08-07 16:33:41,531 INFO  - Start creating the TestRunner id 1 in 0ms
+ 2023-08-07 16:33:41,542 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"maxInstances":5,"extraCapabilities":{},"gateway":"none"},"paas":{"specList":[],"networkProfile":{"delay":0,"corrupt":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"1","networkProfile":{"delay":0,"corrupt":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","profile":"","browserName":"chrome","deviceName":"unknown","platform":"WINDOWS"},"region":"NC"}
+ 2023-08-07 16:33:41,542 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"maxInstances":5,"extraCapabilities":{},"gateway":"none"},"paas":{"specList":[],"networkProfile":{"delay":0,"corrupt":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"delay":0,"corrupt":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","profile":"","browserName":"chrome","deviceName":"unknown","platform":"WINDOWS"},"region":"NC"}
+ 2023-08-07 16:33:43,603 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2023-08-07 16:33:43,603 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2023-08-07 16:33:43,625 INFO  - Starting the execution of the test runners in parallel 
+ 2023-08-07 16:33:43,626 INFO  - Start processing the TestRunner(DEFAULT) id 1 in 0ms
+ 2023-08-07 16:33:43,626 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2023-08-07 16:33:44,828 INFO  - ch115_WIN-3724f - 0: The visit is: 220
+ 2023-08-07 16:33:44,881 INFO  - ch115_WIN-df313 - 1:  [PASSED] Open https://falgsc.eu.org/
+ 2023-08-07 16:33:44,882 INFO  - ch115_WIN-df313 - 1: visitid: 220
+ 2023-08-07 16:33:44,927 INFO  - ch115_WIN-3724f - 0:  [PASSED] Open https://falgsc.eu.org/
+ 2023-08-07 16:33:44,928 INFO  - ch115_WIN-3724f - 0: visitid: 220
+ 2023-08-07 16:33:45,005 INFO  - ch115_WIN-df313 - 1:  [PASSED] Open https://falgsc.eu.org/#/pocPJ/
+ 2023-08-07 16:33:45,038 INFO  - ch115_WIN-3724f - 0:  [PASSED] Open https://falgsc.eu.org/#/pocPJ/
+ 2023-08-07 16:33:50,411 INFO  - ch115_WIN-df313 - 1:  [PASSED] Getting stats from ["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"]
+ 2023-08-07 16:33:50,644 INFO  - ch115_WIN-3724f - 0:  [PASSED] Getting stats from ["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"]
+ 2023-08-07 16:33:50,797 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = java.lang.NullPointerException
+	at org.webrtc.kite.telemed.steps.CloseVisitStep.step(CloseVisitStep.java:19)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+ 2023-08-07 16:33:50,804 WARN  - ch115_WIN-df313 - 1: [SKIPPING] Get the browser console logs.
+ 2023-08-07 16:33:50,806 INFO  - ch115_WIN-df313 - 1:  [BROKEN] Closing visit
+ 2023-08-07 16:33:51,026 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = java.lang.NullPointerException
+	at org.webrtc.kite.telemed.steps.CloseVisitStep.step(CloseVisitStep.java:19)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+ 2023-08-07 16:33:51,033 WARN  - ch115_WIN-3724f - 0: [SKIPPING] Get the browser console logs.
+ 2023-08-07 16:33:51,039 INFO  - ch115_WIN-3724f - 0:  [BROKEN] Closing visit
+ 2023-08-07 16:33:51,041 INFO  - execute(DEFAULT) completed.
+ 2023-08-07 16:33:51,044 INFO  - Terminating, quiting webdriver
+ 2023-08-07 16:33:51,045 INFO  - Closing down webDrivers
+ 2023-08-07 16:33:51,932 INFO  - Test FAILED
+ 2023-08-07 16:33:51,933 INFO  - Matrix runner at last phase, ending. 
+ 2023-08-07 16:33:51,949 WARN  - Adding [0, 0] to retry list..
+ 2023-08-07 16:33:51,958 INFO  - Reading 'C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test\.\configs\telemed.config.json' ...
+ 2023-08-07 16:33:51,962 WARN  - Done! Some test cases might need to be rerun!
+ 2023-08-07 16:33:51,963 INFO  - Reading 'C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test\.\configs\telemed.config.json' ...
+ 2023-08-07 16:33:51,963 INFO  - shutdownExecutors() done.
+ 2023-08-07 16:35:09,725 INFO  - Reading 'C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test\.\configs\telemed.config.json' ...
+ 2023-08-07 16:35:09,910 INFO  - new RoomManager(2 max per room) for https://falgsc.eu.org/
+ 2023-08-07 16:35:09,910 INFO  - Please make sure that you have enough room for all users.
+ 2023-08-07 16:35:09,910 INFO  - getRoomUrl(random) function, with random value = true/false, will give you the base url with or without a randomized ID.
+ 2023-08-07 16:35:09,911 INFO  - Finished reading the configuration file
+ 2023-08-07 16:35:09,911 INFO  - Creating report folder if not exist at :C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test/kite-allure-reports/
+ 2023-08-07 16:35:09,915 INFO  - Running {"type":"interop","name":"Telemed Test %ts","testImpl":"org.webrtc.kite.telemed.KiteTelemedTest","description":"Telemed test description","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} ...
+ 2023-08-07 16:35:09,918 INFO  - Executing {"type":"interop","name":"Telemed Test %ts","testImpl":"org.webrtc.kite.telemed.KiteTelemedTest","description":"Telemed test description","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} for 1 browser tuples with size :2
+ 2023-08-07 16:35:09,923 INFO  - current phase in test manager has been set to DEFAULT
+ 2023-08-07 16:35:09,927 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 0
+           | Elapsed time: 0m0s (avg:0m0s)
+           | Running test case with ID: 0/1
+           | ETA (for Telemed Test %ts): Estimating..
+           |--------------------------------------------------
+ 2023-08-07 16:35:09,928 INFO  - execute(DEFAULT) for the test case: WIN_ch-WIN_ch (2023-08-07-163509)
+ 2023-08-07 16:35:09,930 INFO  - Not load test, init report for test
+ 2023-08-07 16:35:09,931 INFO  - Finished filling out initial report for phase 
+ 2023-08-07 16:35:09,932 INFO  - payload handling
+ 2023-08-07 16:35:09,932 INFO  - the payload is {"url":"https://falgsc.eu.org/","usersPerRoom":2,"getStats":{"enabled":true,"statsCollectionTime":2,"statsCollectionInterval":1,"peerConnections":["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"],"selectedStats":["inbound-rtp","outbound-rtp","local-candidate","remote-candidate","candidate-pair","stream","peer-connection","codec","track","transport"]}}
+ 2023-08-07 16:35:09,934 INFO  - Creating runners
+ 2023-08-07 16:35:09,936 INFO  - Start creating the TestRunner id 1 in 0ms
+ 2023-08-07 16:35:09,936 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2023-08-07 16:35:09,946 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"delay":0,"corrupt":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"1","networkProfile":{"delay":0,"corrupt":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","browserName":"chrome","deviceName":"unknown","platform":"WINDOWS"},"region":"NC"}
+ 2023-08-07 16:35:09,946 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"delay":0,"corrupt":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"delay":0,"corrupt":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","browserName":"chrome","deviceName":"unknown","platform":"WINDOWS"},"region":"NC"}
+ 2023-08-07 16:35:12,156 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2023-08-07 16:35:12,156 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2023-08-07 16:35:12,173 INFO  - Starting the execution of the test runners in parallel 
+ 2023-08-07 16:35:12,175 INFO  - Start processing the TestRunner(DEFAULT) id 1 in 0ms
+ 2023-08-07 16:35:12,175 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2023-08-07 16:35:13,594 INFO  - ch115_WIN-5d58a - 0: The visit is: 221
+ 2023-08-07 16:35:13,665 INFO  - ch115_WIN-3e623 - 1:  [PASSED] Open https://falgsc.eu.org/
+ 2023-08-07 16:35:13,666 INFO  - ch115_WIN-3e623 - 1: visitid: 221
+ 2023-08-07 16:35:13,710 INFO  - ch115_WIN-5d58a - 0:  [PASSED] Open https://falgsc.eu.org/
+ 2023-08-07 16:35:13,710 INFO  - ch115_WIN-5d58a - 0: visitid: 221
+ 2023-08-07 16:35:13,772 INFO  - ch115_WIN-3e623 - 1:  [PASSED] Open https://falgsc.eu.org/#/pocPJ/
+ 2023-08-07 16:35:13,837 INFO  - ch115_WIN-5d58a - 0:  [PASSED] Open https://falgsc.eu.org/#/pocPJ/
+ 2023-08-07 16:35:19,221 INFO  - ch115_WIN-3e623 - 1:  [PASSED] Getting stats from ["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"]
+ 2023-08-07 16:35:19,277 INFO  - ch115_WIN-5d58a - 0:  [PASSED] Getting stats from ["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"]
+ 2023-08-07 16:35:19,446 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = java.lang.NullPointerException
+	at org.webrtc.kite.telemed.steps.CloseVisitStep.step(CloseVisitStep.java:19)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+ 2023-08-07 16:35:19,452 WARN  - ch115_WIN-3e623 - 1: [SKIPPING] Get the browser console logs.
+ 2023-08-07 16:35:19,454 INFO  - ch115_WIN-3e623 - 1:  [BROKEN] Closing visit
+ 2023-08-07 16:35:19,482 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = java.lang.NullPointerException
+	at org.webrtc.kite.telemed.steps.CloseVisitStep.step(CloseVisitStep.java:19)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+ 2023-08-07 16:35:19,487 WARN  - ch115_WIN-5d58a - 0: [SKIPPING] Get the browser console logs.
+ 2023-08-07 16:35:19,487 INFO  - ch115_WIN-5d58a - 0:  [BROKEN] Closing visit
+ 2023-08-07 16:35:19,487 INFO  - execute(DEFAULT) completed.
+ 2023-08-07 16:35:19,487 INFO  - Terminating, quiting webdriver
+ 2023-08-07 16:35:19,489 INFO  - Closing down webDrivers
+ 2023-08-07 16:35:20,253 INFO  - Test FAILED
+ 2023-08-07 16:35:20,253 INFO  - Matrix runner at last phase, ending. 
+ 2023-08-07 16:35:20,261 WARN  - Adding [0, 0] to retry list..
+ 2023-08-07 16:35:20,265 INFO  - Reading 'C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test\.\configs\telemed.config.json' ...
+ 2023-08-07 16:35:20,266 WARN  - Done! Some test cases might need to be rerun!
+ 2023-08-07 16:35:20,268 INFO  - Reading 'C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test\.\configs\telemed.config.json' ...
+ 2023-08-07 16:35:20,270 INFO  - shutdownExecutors() done.
+ 2023-08-07 16:38:38,832 INFO  - Reading 'C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test\.\configs\telemed.config.json' ...
+ 2023-08-07 16:38:39,025 INFO  - new RoomManager(2 max per room) for https://falgsc.eu.org/
+ 2023-08-07 16:38:39,025 INFO  - Please make sure that you have enough room for all users.
+ 2023-08-07 16:38:39,025 INFO  - getRoomUrl(random) function, with random value = true/false, will give you the base url with or without a randomized ID.
+ 2023-08-07 16:38:39,026 INFO  - Finished reading the configuration file
+ 2023-08-07 16:38:39,026 INFO  - Creating report folder if not exist at :C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test/kite-allure-reports/
+ 2023-08-07 16:38:39,031 INFO  - Running {"type":"interop","name":"Telemed Test %ts","testImpl":"org.webrtc.kite.telemed.KiteTelemedTest","description":"Telemed test description","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} ...
+ 2023-08-07 16:38:39,036 INFO  - Executing {"type":"interop","name":"Telemed Test %ts","testImpl":"org.webrtc.kite.telemed.KiteTelemedTest","description":"Telemed test description","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} for 1 browser tuples with size :2
+ 2023-08-07 16:38:39,041 INFO  - current phase in test manager has been set to DEFAULT
+ 2023-08-07 16:38:39,045 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 0
+           | Elapsed time: 0m0s (avg:0m0s)
+           | Running test case with ID: 0/1
+           | ETA (for Telemed Test %ts): Estimating..
+           |--------------------------------------------------
+ 2023-08-07 16:38:39,046 INFO  - execute(DEFAULT) for the test case: WIN_ch-WIN_ch (2023-08-07-163839)
+ 2023-08-07 16:38:39,047 INFO  - Not load test, init report for test
+ 2023-08-07 16:38:39,049 INFO  - Finished filling out initial report for phase 
+ 2023-08-07 16:38:39,049 INFO  - payload handling
+ 2023-08-07 16:38:39,049 INFO  - the payload is {"url":"https://falgsc.eu.org/","usersPerRoom":2,"getStats":{"enabled":true,"statsCollectionTime":2,"statsCollectionInterval":1,"peerConnections":["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"],"selectedStats":["inbound-rtp","outbound-rtp","local-candidate","remote-candidate","candidate-pair","stream","peer-connection","codec","track","transport"]}}
+ 2023-08-07 16:38:39,050 INFO  - Creating runners
+ 2023-08-07 16:38:39,053 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2023-08-07 16:38:39,053 INFO  - Start creating the TestRunner id 1 in 0ms
+ 2023-08-07 16:38:39,065 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"maxInstances":5,"extraCapabilities":{},"gateway":"none"},"paas":{"specList":[],"networkProfile":{"delay":0,"corrupt":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","duplicate":0,"id":"","command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"1","networkProfile":{"delay":0,"corrupt":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","duplicate":0,"id":"","command":""},"exclude":false,"browserSpecs":{"extension":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","profile":"","browserName":"chrome","deviceName":"unknown","platform":"WINDOWS"},"region":"NC"}
+ 2023-08-07 16:38:39,065 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"maxInstances":5,"extraCapabilities":{},"gateway":"none"},"paas":{"specList":[],"networkProfile":{"delay":0,"corrupt":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","duplicate":0,"id":"","command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"delay":0,"corrupt":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","duplicate":0,"id":"","command":""},"exclude":false,"browserSpecs":{"extension":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","profile":"","browserName":"chrome","deviceName":"unknown","platform":"WINDOWS"},"region":"NC"}
+ 2023-08-07 16:38:41,634 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2023-08-07 16:38:41,637 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2023-08-07 16:38:41,678 INFO  - Starting the execution of the test runners in parallel 
+ 2023-08-07 16:38:41,679 INFO  - Start processing the TestRunner(DEFAULT) id 1 in 0ms
+ 2023-08-07 16:38:41,679 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2023-08-07 16:38:43,265 INFO  - ch115_WIN-40206 - 0: The visit is: 222
+ 2023-08-07 16:38:43,356 INFO  - ch115_WIN-bcb0e - 1:  [PASSED] Open https://falgsc.eu.org/
+ 2023-08-07 16:38:43,356 INFO  - ch115_WIN-bcb0e - 1: visitid: 222
+ 2023-08-07 16:38:43,398 INFO  - ch115_WIN-40206 - 0:  [PASSED] Open https://falgsc.eu.org/
+ 2023-08-07 16:38:43,399 INFO  - ch115_WIN-40206 - 0: visitid: 222
+ 2023-08-07 16:38:43,523 INFO  - ch115_WIN-40206 - 0:  [PASSED] Open https://falgsc.eu.org/#/pocPJ/
+ 2023-08-07 16:38:43,525 INFO  - ch115_WIN-bcb0e - 1:  [PASSED] Open https://falgsc.eu.org/#/pocPJ/
+ 2023-08-07 16:38:49,077 INFO  - ch115_WIN-bcb0e - 1:  [PASSED] Getting stats from ["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"]
+ 2023-08-07 16:38:49,081 INFO  - ch115_WIN-40206 - 0:  [PASSED] Getting stats from ["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"]
+ 2023-08-07 16:38:50,574 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (394, 872)
+  (Session info: chrome=115.0.5790.111)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'NORMALBOOK', ip: '192.168.178.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_372'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.111, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\giann\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58111}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: bcb0e4554c8301ede122b1cd22e...}
+Session ID: bcb0e4554c8301ede122b1cd22e6c112
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy20.click(Unknown Source)
+	at org.webrtc.kite.telemed.steps.CloseVisitStep.step(CloseVisitStep.java:21)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+ 2023-08-07 16:38:50,580 WARN  - ch115_WIN-bcb0e - 1: [SKIPPING] Get the browser console logs.
+ 2023-08-07 16:38:50,580 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (392, 715)
+  (Session info: chrome=115.0.5790.111)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'NORMALBOOK', ip: '192.168.178.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_372'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.111, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\giann\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58112}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 402066c46c479652c4a8884f42f...}
+Session ID: 402066c46c479652c4a8884f42faf266
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy20.click(Unknown Source)
+	at org.webrtc.kite.telemed.steps.CloseVisitStep.step(CloseVisitStep.java:21)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+ 2023-08-07 16:38:50,594 INFO  - ch115_WIN-bcb0e - 1:  [BROKEN] Closing visit
+ 2023-08-07 16:38:50,596 WARN  - ch115_WIN-40206 - 0: [SKIPPING] Get the browser console logs.
+ 2023-08-07 16:38:50,597 INFO  - ch115_WIN-40206 - 0:  [BROKEN] Closing visit
+ 2023-08-07 16:38:50,597 INFO  - execute(DEFAULT) completed.
+ 2023-08-07 16:38:50,597 INFO  - Terminating, quiting webdriver
+ 2023-08-07 16:38:50,597 INFO  - Closing down webDrivers
+ 2023-08-07 16:38:51,405 INFO  - Test FAILED
+ 2023-08-07 16:38:51,406 INFO  - Matrix runner at last phase, ending. 
+ 2023-08-07 16:38:51,416 WARN  - Adding [0, 0] to retry list..
+ 2023-08-07 16:38:51,420 INFO  - Reading 'C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test\.\configs\telemed.config.json' ...
+ 2023-08-07 16:38:51,422 WARN  - Done! Some test cases might need to be rerun!
+ 2023-08-07 16:38:51,423 INFO  - Reading 'C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test\.\configs\telemed.config.json' ...
+ 2023-08-07 16:38:51,426 INFO  - shutdownExecutors() done.
+ 2023-08-07 16:45:18,528 INFO  - Reading 'C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test\.\configs\telemed.config.json' ...
+ 2023-08-07 16:45:18,726 INFO  - new RoomManager(2 max per room) for https://falgsc.eu.org/
+ 2023-08-07 16:45:18,727 INFO  - Please make sure that you have enough room for all users.
+ 2023-08-07 16:45:18,727 INFO  - getRoomUrl(random) function, with random value = true/false, will give you the base url with or without a randomized ID.
+ 2023-08-07 16:45:18,727 INFO  - Finished reading the configuration file
+ 2023-08-07 16:45:18,727 INFO  - Creating report folder if not exist at :C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test/kite-allure-reports/
+ 2023-08-07 16:45:18,731 INFO  - Running {"type":"interop","name":"Telemed Test %ts","testImpl":"org.webrtc.kite.telemed.KiteTelemedTest","description":"Telemed test description","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} ...
+ 2023-08-07 16:45:18,736 INFO  - Executing {"type":"interop","name":"Telemed Test %ts","testImpl":"org.webrtc.kite.telemed.KiteTelemedTest","description":"Telemed test description","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} for 1 browser tuples with size :2
+ 2023-08-07 16:45:18,741 INFO  - current phase in test manager has been set to DEFAULT
+ 2023-08-07 16:45:18,745 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 0
+           | Elapsed time: 0m0s (avg:0m0s)
+           | Running test case with ID: 0/1
+           | ETA (for Telemed Test %ts): Estimating..
+           |--------------------------------------------------
+ 2023-08-07 16:45:18,746 INFO  - execute(DEFAULT) for the test case: WIN_ch-WIN_ch (2023-08-07-164518)
+ 2023-08-07 16:45:18,748 INFO  - Not load test, init report for test
+ 2023-08-07 16:45:18,749 INFO  - Finished filling out initial report for phase 
+ 2023-08-07 16:45:18,749 INFO  - payload handling
+ 2023-08-07 16:45:18,750 INFO  - the payload is {"url":"https://falgsc.eu.org/","usersPerRoom":2,"getStats":{"enabled":true,"statsCollectionTime":2,"statsCollectionInterval":1,"peerConnections":["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"],"selectedStats":["inbound-rtp","outbound-rtp","local-candidate","remote-candidate","candidate-pair","stream","peer-connection","codec","track","transport"]}}
+ 2023-08-07 16:45:18,752 INFO  - Creating runners
+ 2023-08-07 16:45:18,753 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2023-08-07 16:45:18,753 INFO  - Start creating the TestRunner id 1 in 0ms
+ 2023-08-07 16:45:18,767 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"maxInstances":5,"extraCapabilities":{},"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"1","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","browserName":"chrome","deviceName":"unknown","platform":"WINDOWS"},"region":"NC"}
+ 2023-08-07 16:45:18,767 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"maxInstances":5,"extraCapabilities":{},"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","browserName":"chrome","deviceName":"unknown","platform":"WINDOWS"},"region":"NC"}
+ 2023-08-07 16:45:20,976 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2023-08-07 16:45:20,978 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2023-08-07 16:45:21,008 INFO  - Starting the execution of the test runners in parallel 
+ 2023-08-07 16:45:21,009 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2023-08-07 16:45:21,009 INFO  - Start processing the TestRunner(DEFAULT) id 1 in 0ms
+ 2023-08-07 16:45:22,265 INFO  - ch115_WIN-ba994 - 0: The visit is: 223
+ 2023-08-07 16:45:22,330 INFO  - ch115_WIN-91835 - 1:  [PASSED] Open https://falgsc.eu.org/
+ 2023-08-07 16:45:22,330 INFO  - ch115_WIN-91835 - 1: visitid: 223
+ 2023-08-07 16:45:22,355 INFO  - ch115_WIN-ba994 - 0:  [PASSED] Open https://falgsc.eu.org/
+ 2023-08-07 16:45:22,356 INFO  - ch115_WIN-ba994 - 0: visitid: 223
+ 2023-08-07 16:45:22,480 INFO  - ch115_WIN-91835 - 1:  [PASSED] Open https://falgsc.eu.org/#/pocPJ/
+ 2023-08-07 16:45:22,481 INFO  - ch115_WIN-ba994 - 0:  [PASSED] Open https://falgsc.eu.org/#/pocPJ/
+ 2023-08-07 16:45:27,946 INFO  - ch115_WIN-ba994 - 0:  [PASSED] Getting stats from ["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"]
+ 2023-08-07 16:45:27,948 INFO  - ch115_WIN-91835 - 1:  [PASSED] Getting stats from ["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"]
+ 2023-08-07 16:45:29,366 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (394, 872)
+  (Session info: chrome=115.0.5790.111)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'NORMALBOOK', ip: '192.168.178.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_372'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.111, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\giann\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58836}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: ba99409864ec34d11fcf59d741e...}
+Session ID: ba99409864ec34d11fcf59d741e47a20
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy20.click(Unknown Source)
+	at org.webrtc.kite.telemed.steps.CloseVisitStep.step(CloseVisitStep.java:21)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+ 2023-08-07 16:45:29,373 WARN  - ch115_WIN-ba994 - 0: [SKIPPING] Get the browser console logs.
+ 2023-08-07 16:45:29,373 INFO  - ch115_WIN-ba994 - 0:  [BROKEN] Closing visit
+ 2023-08-07 16:45:29,374 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (394, 872)
+  (Session info: chrome=115.0.5790.111)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'NORMALBOOK', ip: '192.168.178.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_372'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.111, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\giann\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58837}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 91835b12135a0665ea18d576eee...}
+Session ID: 91835b12135a0665ea18d576eeea407c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy20.click(Unknown Source)
+	at org.webrtc.kite.telemed.steps.CloseVisitStep.step(CloseVisitStep.java:21)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+ 2023-08-07 16:45:29,377 WARN  - ch115_WIN-91835 - 1: [SKIPPING] Get the browser console logs.
+ 2023-08-07 16:45:29,377 INFO  - ch115_WIN-91835 - 1:  [BROKEN] Closing visit
+ 2023-08-07 16:45:29,379 INFO  - execute(DEFAULT) completed.
+ 2023-08-07 16:45:29,467 INFO  - Terminating, quiting webdriver
+ 2023-08-07 16:45:29,468 INFO  - Closing down webDrivers
+ 2023-08-07 16:45:30,229 INFO  - Test FAILED
+ 2023-08-07 16:45:30,230 INFO  - Matrix runner at last phase, ending. 
+ 2023-08-07 16:45:30,243 WARN  - Adding [0, 0] to retry list..
+ 2023-08-07 16:45:30,251 INFO  - Reading 'C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test\.\configs\telemed.config.json' ...
+ 2023-08-07 16:45:30,254 WARN  - Done! Some test cases might need to be rerun!
+ 2023-08-07 16:45:30,255 INFO  - Reading 'C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test\.\configs\telemed.config.json' ...
+ 2023-08-07 16:45:30,257 INFO  - shutdownExecutors() done.
+ 2023-08-07 16:48:08,833 INFO  - Reading 'C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test\.\configs\telemed.config.json' ...
+ 2023-08-07 16:48:09,018 INFO  - new RoomManager(2 max per room) for https://falgsc.eu.org/
+ 2023-08-07 16:48:09,018 INFO  - Please make sure that you have enough room for all users.
+ 2023-08-07 16:48:09,021 INFO  - getRoomUrl(random) function, with random value = true/false, will give you the base url with or without a randomized ID.
+ 2023-08-07 16:48:09,021 INFO  - Finished reading the configuration file
+ 2023-08-07 16:48:09,021 INFO  - Creating report folder if not exist at :C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test/kite-allure-reports/
+ 2023-08-07 16:48:09,024 INFO  - Running {"type":"interop","name":"Telemed Test %ts","testImpl":"org.webrtc.kite.telemed.KiteTelemedTest","description":"Telemed test description","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} ...
+ 2023-08-07 16:48:09,030 INFO  - Executing {"type":"interop","name":"Telemed Test %ts","testImpl":"org.webrtc.kite.telemed.KiteTelemedTest","description":"Telemed test description","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} for 1 browser tuples with size :2
+ 2023-08-07 16:48:09,032 INFO  - current phase in test manager has been set to DEFAULT
+ 2023-08-07 16:48:09,043 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 0
+           | Elapsed time: 0m0s (avg:0m0s)
+           | Running test case with ID: 0/1
+           | ETA (for Telemed Test %ts): Estimating..
+           |--------------------------------------------------
+ 2023-08-07 16:48:09,043 INFO  - execute(DEFAULT) for the test case: WIN_ch-WIN_ch (2023-08-07-164809)
+ 2023-08-07 16:48:09,047 INFO  - Not load test, init report for test
+ 2023-08-07 16:48:09,047 INFO  - Finished filling out initial report for phase 
+ 2023-08-07 16:48:09,050 INFO  - payload handling
+ 2023-08-07 16:48:09,050 INFO  - the payload is {"url":"https://falgsc.eu.org/","usersPerRoom":2,"getStats":{"enabled":true,"statsCollectionTime":2,"statsCollectionInterval":1,"peerConnections":["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"],"selectedStats":["inbound-rtp","outbound-rtp","local-candidate","remote-candidate","candidate-pair","stream","peer-connection","codec","track","transport"]}}
+ 2023-08-07 16:48:09,051 INFO  - Creating runners
+ 2023-08-07 16:48:09,051 INFO  - Start creating the TestRunner id 1 in 0ms
+ 2023-08-07 16:48:09,051 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2023-08-07 16:48:09,064 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"delay":0,"corrupt":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"1","networkProfile":{"delay":0,"corrupt":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","profile":"","browserName":"chrome","deviceName":"unknown","platform":"WINDOWS"},"region":"NC"}
+ 2023-08-07 16:48:09,064 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"delay":0,"corrupt":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"delay":0,"corrupt":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","profile":"","browserName":"chrome","deviceName":"unknown","platform":"WINDOWS"},"region":"NC"}
+ 2023-08-07 16:48:12,303 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2023-08-07 16:48:12,303 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2023-08-07 16:48:12,323 INFO  - Starting the execution of the test runners in parallel 
+ 2023-08-07 16:48:12,324 INFO  - Start processing the TestRunner(DEFAULT) id 1 in 0ms
+ 2023-08-07 16:48:12,324 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2023-08-07 16:48:14,497 INFO  - ch115_WIN-a907c - 1:  [PASSED] Open https://falgsc.eu.org/
+ 2023-08-07 16:48:14,497 INFO  - ch115_WIN-a907c - 1: visitid: null
+ 2023-08-07 16:48:14,645 INFO  - ch115_WIN-a907c - 1:  [PASSED] Open https://falgsc.eu.org/#/pocPJ/
+ 2023-08-07 16:48:15,456 INFO  - ch115_WIN-f910f - 0: The visit is: 224
+ 2023-08-07 16:48:15,558 INFO  - ch115_WIN-f910f - 0:  [PASSED] Open https://falgsc.eu.org/
+ 2023-08-07 16:48:15,558 INFO  - ch115_WIN-f910f - 0: visitid: 224
+ 2023-08-07 16:48:15,664 INFO  - ch115_WIN-f910f - 0:  [PASSED] Open https://falgsc.eu.org/#/pocPJ/
+ 2023-08-07 16:48:19,967 INFO  - ch115_WIN-a907c - 1:  [PASSED] Getting stats from ["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"]
+ 2023-08-07 16:48:20,978 INFO  - ch115_WIN-f910f - 0:  [PASSED] Getting stats from ["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"]
+ 2023-08-07 16:48:21,398 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (394, 790)
+  (Session info: chrome=115.0.5790.111)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'NORMALBOOK', ip: '192.168.178.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_372'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.111, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\giann\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59328}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: a907cc4e1a7778c7f2a5c3a3b00...}
+Session ID: a907cc4e1a7778c7f2a5c3a3b0061d5a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.webrtc.kite.telemed.steps.CloseVisitStep.step(CloseVisitStep.java:20)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+ 2023-08-07 16:48:21,401 WARN  - ch115_WIN-a907c - 1: [SKIPPING] Get the browser console logs.
+ 2023-08-07 16:48:21,401 INFO  - ch115_WIN-a907c - 1:  [BROKEN] Closing visit
+ 2023-08-07 16:48:22,274 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (394, 817)
+  (Session info: chrome=115.0.5790.111)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'NORMALBOOK', ip: '192.168.178.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_372'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.111, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\giann\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59329}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: f910f7c2e128e6c5f5dde185bf7...}
+Session ID: f910f7c2e128e6c5f5dde185bf753001
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.webrtc.kite.telemed.steps.CloseVisitStep.step(CloseVisitStep.java:20)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+ 2023-08-07 16:48:22,279 WARN  - ch115_WIN-f910f - 0: [SKIPPING] Get the browser console logs.
+ 2023-08-07 16:48:22,279 INFO  - ch115_WIN-f910f - 0:  [BROKEN] Closing visit
+ 2023-08-07 16:48:22,280 INFO  - execute(DEFAULT) completed.
+ 2023-08-07 16:48:22,281 INFO  - Terminating, quiting webdriver
+ 2023-08-07 16:48:22,282 INFO  - Closing down webDrivers
+ 2023-08-07 16:48:23,002 INFO  - Test FAILED
+ 2023-08-07 16:48:23,002 INFO  - Matrix runner at last phase, ending. 
+ 2023-08-07 16:48:23,013 WARN  - Adding [0, 0] to retry list..
+ 2023-08-07 16:48:23,020 INFO  - Reading 'C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test\.\configs\telemed.config.json' ...
+ 2023-08-07 16:48:23,023 WARN  - Done! Some test cases might need to be rerun!
+ 2023-08-07 16:48:23,024 INFO  - Reading 'C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test\.\configs\telemed.config.json' ...
+ 2023-08-07 16:48:23,026 INFO  - shutdownExecutors() done.
+ 2023-08-07 16:50:22,633 INFO  - Reading 'C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test\.\configs\telemed.config.json' ...
+ 2023-08-07 16:50:22,822 INFO  - new RoomManager(2 max per room) for https://falgsc.eu.org/
+ 2023-08-07 16:50:22,822 INFO  - Please make sure that you have enough room for all users.
+ 2023-08-07 16:50:22,823 INFO  - getRoomUrl(random) function, with random value = true/false, will give you the base url with or without a randomized ID.
+ 2023-08-07 16:50:22,823 INFO  - Finished reading the configuration file
+ 2023-08-07 16:50:22,824 INFO  - Creating report folder if not exist at :C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test/kite-allure-reports/
+ 2023-08-07 16:50:22,827 INFO  - Running {"type":"interop","name":"Telemed Test %ts","testImpl":"org.webrtc.kite.telemed.KiteTelemedTest","description":"Telemed test description","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} ...
+ 2023-08-07 16:50:22,831 INFO  - Executing {"type":"interop","name":"Telemed Test %ts","testImpl":"org.webrtc.kite.telemed.KiteTelemedTest","description":"Telemed test description","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} for 1 browser tuples with size :2
+ 2023-08-07 16:50:22,836 INFO  - current phase in test manager has been set to DEFAULT
+ 2023-08-07 16:50:22,840 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 0
+           | Elapsed time: 0m0s (avg:0m0s)
+           | Running test case with ID: 0/1
+           | ETA (for Telemed Test %ts): Estimating..
+           |--------------------------------------------------
+ 2023-08-07 16:50:22,842 INFO  - execute(DEFAULT) for the test case: WIN_ch-WIN_ch (2023-08-07-165022)
+ 2023-08-07 16:50:22,844 INFO  - Not load test, init report for test
+ 2023-08-07 16:50:22,845 INFO  - Finished filling out initial report for phase 
+ 2023-08-07 16:50:22,845 INFO  - payload handling
+ 2023-08-07 16:50:22,846 INFO  - the payload is {"url":"https://falgsc.eu.org/","usersPerRoom":2,"getStats":{"enabled":true,"statsCollectionTime":2,"statsCollectionInterval":1,"peerConnections":["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"],"selectedStats":["inbound-rtp","outbound-rtp","local-candidate","remote-candidate","candidate-pair","stream","peer-connection","codec","track","transport"]}}
+ 2023-08-07 16:50:22,848 INFO  - Creating runners
+ 2023-08-07 16:50:22,850 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2023-08-07 16:50:22,850 INFO  - Start creating the TestRunner id 1 in 0ms
+ 2023-08-07 16:50:22,861 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"maxInstances":5,"extraCapabilities":{},"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"1","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","profile":"","browserName":"chrome","deviceName":"unknown","platform":"WINDOWS"},"region":"NC"}
+ 2023-08-07 16:50:22,861 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"maxInstances":5,"extraCapabilities":{},"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","profile":"","browserName":"chrome","deviceName":"unknown","platform":"WINDOWS"},"region":"NC"}
+ 2023-08-07 16:50:25,087 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2023-08-07 16:50:25,087 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2023-08-07 16:50:25,108 INFO  - Starting the execution of the test runners in parallel 
+ 2023-08-07 16:50:25,109 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2023-08-07 16:50:25,109 INFO  - Start processing the TestRunner(DEFAULT) id 1 in 0ms
+ 2023-08-07 16:50:27,391 INFO  - ch115_WIN-a593a - 0: The visit is: 225
+ 2023-08-07 16:50:27,492 INFO  - ch115_WIN-a593a - 0:  [PASSED] Open https://falgsc.eu.org/
+ 2023-08-07 16:50:27,492 INFO  - ch115_WIN-a593a - 0: visitid: 225
+ 2023-08-07 16:50:27,591 INFO  - ch115_WIN-a593a - 0:  [PASSED] Open https://falgsc.eu.org/#/pocPJ/
+ 2023-08-07 16:50:31,050 INFO  - ch115_WIN-fcbf0 - 1:  [PASSED] Open https://falgsc.eu.org/
+ 2023-08-07 16:50:31,050 INFO  - ch115_WIN-fcbf0 - 1: visitid: 225
+ 2023-08-07 16:50:31,144 INFO  - ch115_WIN-fcbf0 - 1:  [PASSED] Open https://falgsc.eu.org/#/pocPJ/
+ 2023-08-07 16:50:32,940 INFO  - ch115_WIN-a593a - 0:  [PASSED] Getting stats from ["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"]
+ 2023-08-07 16:50:33,529 INFO  - ch115_WIN-a593a - 0:  [PASSED] Closing visit
+ 2023-08-07 16:50:36,690 INFO  - ch115_WIN-fcbf0 - 1:  [PASSED] Getting stats from ["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"]
+ 2023-08-07 16:50:37,052 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#end\-call"}
+  (Session info: chrome=115.0.5790.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'NORMALBOOK', ip: '192.168.178.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_372'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.111, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\giann\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59588}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: fcbf040b8ba31f389ff3770cb51...}
+Session ID: fcbf040b8ba31f389ff3770cb5197107
+*** Element info: {Using=id, value=end-call}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.webrtc.kite.telemed.steps.CloseVisitStep.step(CloseVisitStep.java:21)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+ 2023-08-07 16:50:37,056 WARN  - ch115_WIN-fcbf0 - 1: [SKIPPING] Get the browser console logs.
+ 2023-08-07 16:50:37,056 INFO  - ch115_WIN-fcbf0 - 1:  [BROKEN] Closing visit
+ 2023-08-07 16:50:37,057 INFO  - execute(DEFAULT) completed.
+ 2023-08-07 16:50:37,057 INFO  - Terminating, quiting webdriver
+ 2023-08-07 16:50:37,058 INFO  - Closing down webDrivers
+ 2023-08-07 16:50:37,773 INFO  - Test FAILED
+ 2023-08-07 16:50:37,774 INFO  - Matrix runner at last phase, ending. 
+ 2023-08-07 16:50:37,785 WARN  - Adding [0, 0] to retry list..
+ 2023-08-07 16:50:37,791 INFO  - Reading 'C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test\.\configs\telemed.config.json' ...
+ 2023-08-07 16:50:37,793 WARN  - Done! Some test cases might need to be rerun!
+ 2023-08-07 16:50:37,794 INFO  - Reading 'C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test\.\configs\telemed.config.json' ...
+ 2023-08-07 16:50:37,797 INFO  - shutdownExecutors() done.
+ 2023-08-07 16:51:03,450 INFO  - Reading 'C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test\.\configs\telemed.config.json' ...
+ 2023-08-07 16:51:03,650 INFO  - new RoomManager(2 max per room) for https://falgsc.eu.org/
+ 2023-08-07 16:51:03,651 INFO  - Please make sure that you have enough room for all users.
+ 2023-08-07 16:51:03,651 INFO  - getRoomUrl(random) function, with random value = true/false, will give you the base url with or without a randomized ID.
+ 2023-08-07 16:51:03,652 INFO  - Finished reading the configuration file
+ 2023-08-07 16:51:03,652 INFO  - Creating report folder if not exist at :C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test/kite-allure-reports/
+ 2023-08-07 16:51:03,656 INFO  - Running {"type":"interop","name":"Telemed Test %ts","testImpl":"org.webrtc.kite.telemed.KiteTelemedTest","description":"Telemed test description","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} ...
+ 2023-08-07 16:51:03,656 INFO  - Executing {"type":"interop","name":"Telemed Test %ts","testImpl":"org.webrtc.kite.telemed.KiteTelemedTest","description":"Telemed test description","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} for 1 browser tuples with size :2
+ 2023-08-07 16:51:03,662 INFO  - current phase in test manager has been set to DEFAULT
+ 2023-08-07 16:51:03,662 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 0
+           | Elapsed time: 0m0s (avg:0m0s)
+           | Running test case with ID: 0/1
+           | ETA (for Telemed Test %ts): Estimating..
+           |--------------------------------------------------
+ 2023-08-07 16:51:03,671 INFO  - execute(DEFAULT) for the test case: WIN_ch-WIN_ch (2023-08-07-165103)
+ 2023-08-07 16:51:03,673 INFO  - Not load test, init report for test
+ 2023-08-07 16:51:03,673 INFO  - Finished filling out initial report for phase 
+ 2023-08-07 16:51:03,673 INFO  - payload handling
+ 2023-08-07 16:51:03,673 INFO  - the payload is {"url":"https://falgsc.eu.org/","usersPerRoom":2,"getStats":{"enabled":true,"statsCollectionTime":2,"statsCollectionInterval":1,"peerConnections":["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"],"selectedStats":["inbound-rtp","outbound-rtp","local-candidate","remote-candidate","candidate-pair","stream","peer-connection","codec","track","transport"]}}
+ 2023-08-07 16:51:03,673 INFO  - Creating runners
+ 2023-08-07 16:51:03,673 INFO  - Start creating the TestRunner id 1 in 0ms
+ 2023-08-07 16:51:03,673 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2023-08-07 16:51:03,688 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"maxInstances":5,"extraCapabilities":{},"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"1","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","profile":"","browserName":"chrome","deviceName":"unknown","platform":"WINDOWS"},"region":"NC"}
+ 2023-08-07 16:51:03,688 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"maxInstances":5,"extraCapabilities":{},"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","profile":"","browserName":"chrome","deviceName":"unknown","platform":"WINDOWS"},"region":"NC"}
+ 2023-08-07 16:51:05,806 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2023-08-07 16:51:05,806 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2023-08-07 16:51:05,825 INFO  - Starting the execution of the test runners in parallel 
+ 2023-08-07 16:51:05,826 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2023-08-07 16:51:05,826 INFO  - Start processing the TestRunner(DEFAULT) id 1 in 0ms
+ 2023-08-07 16:51:07,105 INFO  - ch115_WIN-6f1ce - 0: The visit is: 226
+ 2023-08-07 16:51:07,205 INFO  - ch115_WIN-6f1ce - 0:  [PASSED] Open https://falgsc.eu.org/
+ 2023-08-07 16:51:07,205 INFO  - ch115_WIN-6f1ce - 0: visitid: 226
+ 2023-08-07 16:51:07,376 INFO  - ch115_WIN-6f1ce - 0:  [PASSED] Open https://falgsc.eu.org/#/pocPJ/
+ 2023-08-07 16:51:07,405 INFO  - ch115_WIN-bd525 - 1:  [PASSED] Open https://falgsc.eu.org/
+ 2023-08-07 16:51:07,405 INFO  - ch115_WIN-bd525 - 1: visitid: 226
+ 2023-08-07 16:51:07,511 INFO  - ch115_WIN-bd525 - 1:  [PASSED] Open https://falgsc.eu.org/#/pocPJ/
+ 2023-08-07 16:51:12,720 INFO  - ch115_WIN-6f1ce - 0:  [PASSED] Getting stats from ["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"]
+ 2023-08-07 16:51:12,883 INFO  - ch115_WIN-bd525 - 1:  [PASSED] Getting stats from ["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"]
+ 2023-08-07 16:51:14,316 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (392, 847)
+  (Session info: chrome=115.0.5790.111)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'NORMALBOOK', ip: '192.168.178.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_372'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.111, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\giann\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59714}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 6f1ce0508d89650b9820ae562e1...}
+Session ID: 6f1ce0508d89650b9820ae562e1da33e
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.webrtc.kite.telemed.steps.CloseVisitStep.step(CloseVisitStep.java:21)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+ 2023-08-07 16:51:14,321 WARN  - ch115_WIN-6f1ce - 0: [SKIPPING] Get the browser console logs.
+ 2023-08-07 16:51:14,322 INFO  - ch115_WIN-6f1ce - 0:  [BROKEN] Closing visit
+ 2023-08-07 16:51:14,472 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (392, 840)
+  (Session info: chrome=115.0.5790.111)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'NORMALBOOK', ip: '192.168.178.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_372'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.111, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\giann\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59713}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: bd5250b0435cb15c73ac7df790d...}
+Session ID: bd5250b0435cb15c73ac7df790d91a78
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.webrtc.kite.telemed.steps.CloseVisitStep.step(CloseVisitStep.java:21)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+ 2023-08-07 16:51:14,476 WARN  - ch115_WIN-bd525 - 1: [SKIPPING] Get the browser console logs.
+ 2023-08-07 16:51:14,476 INFO  - ch115_WIN-bd525 - 1:  [BROKEN] Closing visit
+ 2023-08-07 16:51:14,477 INFO  - execute(DEFAULT) completed.
+ 2023-08-07 16:51:14,477 INFO  - Terminating, quiting webdriver
+ 2023-08-07 16:51:14,477 INFO  - Closing down webDrivers
+ 2023-08-07 16:51:15,190 INFO  - Test FAILED
+ 2023-08-07 16:51:15,190 INFO  - Matrix runner at last phase, ending. 
+ 2023-08-07 16:51:15,201 WARN  - Adding [0, 0] to retry list..
+ 2023-08-07 16:51:15,205 INFO  - Reading 'C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test\.\configs\telemed.config.json' ...
+ 2023-08-07 16:51:15,207 WARN  - Done! Some test cases might need to be rerun!
+ 2023-08-07 16:51:15,208 INFO  - Reading 'C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test\.\configs\telemed.config.json' ...
+ 2023-08-07 16:51:15,210 INFO  - shutdownExecutors() done.
+ 2023-08-07 16:52:24,329 INFO  - Reading 'C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test\.\configs\telemed.config.json' ...
+ 2023-08-07 16:52:24,515 INFO  - new RoomManager(2 max per room) for https://falgsc.eu.org/
+ 2023-08-07 16:52:24,516 INFO  - Please make sure that you have enough room for all users.
+ 2023-08-07 16:52:24,516 INFO  - getRoomUrl(random) function, with random value = true/false, will give you the base url with or without a randomized ID.
+ 2023-08-07 16:52:24,516 INFO  - Finished reading the configuration file
+ 2023-08-07 16:52:24,516 INFO  - Creating report folder if not exist at :C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test/kite-allure-reports/
+ 2023-08-07 16:52:24,520 INFO  - Running {"type":"interop","name":"Telemed Test %ts","testImpl":"org.webrtc.kite.telemed.KiteTelemedTest","description":"Telemed test description","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} ...
+ 2023-08-07 16:52:24,525 INFO  - Executing {"type":"interop","name":"Telemed Test %ts","testImpl":"org.webrtc.kite.telemed.KiteTelemedTest","description":"Telemed test description","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} for 1 browser tuples with size :2
+ 2023-08-07 16:52:24,529 INFO  - current phase in test manager has been set to DEFAULT
+ 2023-08-07 16:52:24,533 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 0
+           | Elapsed time: 0m0s (avg:0m0s)
+           | Running test case with ID: 0/1
+           | ETA (for Telemed Test %ts): Estimating..
+           |--------------------------------------------------
+ 2023-08-07 16:52:24,534 INFO  - execute(DEFAULT) for the test case: WIN_ch-WIN_ch (2023-08-07-165224)
+ 2023-08-07 16:52:24,536 INFO  - Not load test, init report for test
+ 2023-08-07 16:52:24,537 INFO  - Finished filling out initial report for phase 
+ 2023-08-07 16:52:24,537 INFO  - payload handling
+ 2023-08-07 16:52:24,537 INFO  - the payload is {"url":"https://falgsc.eu.org/","usersPerRoom":2,"getStats":{"enabled":true,"statsCollectionTime":2,"statsCollectionInterval":1,"peerConnections":["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"],"selectedStats":["inbound-rtp","outbound-rtp","local-candidate","remote-candidate","candidate-pair","stream","peer-connection","codec","track","transport"]}}
+ 2023-08-07 16:52:24,538 INFO  - Creating runners
+ 2023-08-07 16:52:24,540 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2023-08-07 16:52:24,540 INFO  - Start creating the TestRunner id 1 in 0ms
+ 2023-08-07 16:52:24,551 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"maxInstances":5,"extraCapabilities":{},"gateway":"none"},"paas":{"specList":[],"networkProfile":{"delay":0,"corrupt":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"1","networkProfile":{"delay":0,"corrupt":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","profile":"","browserName":"chrome","deviceName":"unknown","platform":"WINDOWS"},"region":"NC"}
+ 2023-08-07 16:52:24,551 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"maxInstances":5,"extraCapabilities":{},"gateway":"none"},"paas":{"specList":[],"networkProfile":{"delay":0,"corrupt":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"delay":0,"corrupt":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","profile":"","browserName":"chrome","deviceName":"unknown","platform":"WINDOWS"},"region":"NC"}
+ 2023-08-07 16:52:26,496 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2023-08-07 16:52:26,496 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2023-08-07 16:52:26,510 INFO  - Starting the execution of the test runners in parallel 
+ 2023-08-07 16:52:26,511 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2023-08-07 16:52:26,511 INFO  - Start processing the TestRunner(DEFAULT) id 1 in 0ms
+ 2023-08-07 16:52:27,577 INFO  - ch115_WIN-0ea94 - 0: The visit is: 227
+ 2023-08-07 16:52:27,617 INFO  - ch115_WIN-01d87 - 1:  [PASSED] Open https://falgsc.eu.org/
+ 2023-08-07 16:52:27,617 INFO  - ch115_WIN-01d87 - 1: visitid: 227
+ 2023-08-07 16:52:27,675 INFO  - ch115_WIN-0ea94 - 0:  [PASSED] Open https://falgsc.eu.org/
+ 2023-08-07 16:52:27,676 INFO  - ch115_WIN-0ea94 - 0: visitid: 227
+ 2023-08-07 16:52:27,723 INFO  - ch115_WIN-01d87 - 1:  [PASSED] Open https://falgsc.eu.org/#/pocPJ/
+ 2023-08-07 16:52:27,783 INFO  - ch115_WIN-0ea94 - 0:  [PASSED] Open https://falgsc.eu.org/#/pocPJ/
+ 2023-08-07 16:52:33,075 INFO  - ch115_WIN-01d87 - 1:  [PASSED] Getting stats from ["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"]
+ 2023-08-07 16:52:33,159 INFO  - ch115_WIN-0ea94 - 0:  [PASSED] Getting stats from ["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"]
+ 2023-08-07 16:52:34,663 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (392, 847)
+  (Session info: chrome=115.0.5790.111)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'NORMALBOOK', ip: '192.168.178.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_372'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.111, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\giann\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59857}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 01d87b69b6e7e9adb666a922ac7...}
+Session ID: 01d87b69b6e7e9adb666a922ac7c596d
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.webrtc.kite.telemed.steps.CloseVisitStep.step(CloseVisitStep.java:21)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+ 2023-08-07 16:52:34,668 WARN  - ch115_WIN-01d87 - 1: [SKIPPING] Get the browser console logs.
+ 2023-08-07 16:52:34,668 INFO  - ch115_WIN-01d87 - 1:  [BROKEN] Closing visit
+ 2023-08-07 16:52:34,702 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (392, 847)
+  (Session info: chrome=115.0.5790.111)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'NORMALBOOK', ip: '192.168.178.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_372'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.111, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\giann\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59858}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 0ea94ac6a78d8c81273fe2a609b...}
+Session ID: 0ea94ac6a78d8c81273fe2a609ba06f4
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.webrtc.kite.telemed.steps.CloseVisitStep.step(CloseVisitStep.java:21)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+ 2023-08-07 16:52:34,706 WARN  - ch115_WIN-0ea94 - 0: [SKIPPING] Get the browser console logs.
+ 2023-08-07 16:52:34,706 INFO  - ch115_WIN-0ea94 - 0:  [BROKEN] Closing visit
+ 2023-08-07 16:52:34,707 INFO  - execute(DEFAULT) completed.
+ 2023-08-07 16:52:34,707 INFO  - Terminating, quiting webdriver
+ 2023-08-07 16:52:34,708 INFO  - Closing down webDrivers
+ 2023-08-07 16:52:35,429 INFO  - Test FAILED
+ 2023-08-07 16:52:35,430 INFO  - Matrix runner at last phase, ending. 
+ 2023-08-07 16:52:35,437 WARN  - Adding [0, 0] to retry list..
+ 2023-08-07 16:52:35,444 INFO  - Reading 'C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test\.\configs\telemed.config.json' ...
+ 2023-08-07 16:52:35,445 WARN  - Done! Some test cases might need to be rerun!
+ 2023-08-07 16:52:35,447 INFO  - Reading 'C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test\.\configs\telemed.config.json' ...
+ 2023-08-07 16:52:35,450 INFO  - shutdownExecutors() done.
+ 2023-08-07 17:03:02,980 INFO  - Reading 'C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test\.\configs\telemed.config.json' ...
+ 2023-08-07 17:03:03,170 INFO  - new RoomManager(2 max per room) for https://falgsc.eu.org/
+ 2023-08-07 17:03:03,170 INFO  - Please make sure that you have enough room for all users.
+ 2023-08-07 17:03:03,170 INFO  - getRoomUrl(random) function, with random value = true/false, will give you the base url with or without a randomized ID.
+ 2023-08-07 17:03:03,171 INFO  - Finished reading the configuration file
+ 2023-08-07 17:03:03,171 INFO  - Creating report folder if not exist at :C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test/kite-allure-reports/
+ 2023-08-07 17:03:03,174 INFO  - Running {"type":"interop","name":"Telemed Test %ts","testImpl":"org.webrtc.kite.telemed.KiteTelemedTest","description":"Telemed test description","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} ...
+ 2023-08-07 17:03:03,178 INFO  - Executing {"type":"interop","name":"Telemed Test %ts","testImpl":"org.webrtc.kite.telemed.KiteTelemedTest","description":"Telemed test description","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} for 1 browser tuples with size :2
+ 2023-08-07 17:03:03,183 INFO  - current phase in test manager has been set to DEFAULT
+ 2023-08-07 17:03:03,188 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 0
+           | Elapsed time: 0m0s (avg:0m0s)
+           | Running test case with ID: 0/1
+           | ETA (for Telemed Test %ts): Estimating..
+           |--------------------------------------------------
+ 2023-08-07 17:03:03,189 INFO  - execute(DEFAULT) for the test case: WIN_ch-WIN_ch (2023-08-07-170303)
+ 2023-08-07 17:03:03,190 INFO  - Not load test, init report for test
+ 2023-08-07 17:03:03,192 INFO  - Finished filling out initial report for phase 
+ 2023-08-07 17:03:03,192 INFO  - payload handling
+ 2023-08-07 17:03:03,192 INFO  - the payload is {"url":"https://falgsc.eu.org/","usersPerRoom":2,"getStats":{"enabled":true,"statsCollectionTime":2,"statsCollectionInterval":1,"peerConnections":["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"],"selectedStats":["inbound-rtp","outbound-rtp","local-candidate","remote-candidate","candidate-pair","stream","peer-connection","codec","track","transport"]}}
+ 2023-08-07 17:03:03,194 INFO  - Creating runners
+ 2023-08-07 17:03:03,196 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2023-08-07 17:03:03,196 INFO  - Start creating the TestRunner id 1 in 0ms
+ 2023-08-07 17:03:03,206 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","profile":"","browserName":"chrome","deviceName":"unknown","platform":"WINDOWS"},"region":"NC"}
+ 2023-08-07 17:03:03,206 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"extraCapabilities":{},"maxInstances":5,"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"1","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","profile":"","browserName":"chrome","deviceName":"unknown","platform":"WINDOWS"},"region":"NC"}
+ 2023-08-07 17:03:05,415 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2023-08-07 17:03:05,415 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2023-08-07 17:03:05,431 INFO  - Starting the execution of the test runners in parallel 
+ 2023-08-07 17:03:05,432 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2023-08-07 17:03:05,432 INFO  - Start processing the TestRunner(DEFAULT) id 1 in 0ms
+ 2023-08-07 17:03:06,727 INFO  - ch115_WIN-1282b - 0: The visit is: 228
+ 2023-08-07 17:03:06,740 INFO  - ch115_WIN-74b6d - 1:  [PASSED] Open https://falgsc.eu.org/
+ 2023-08-07 17:03:06,740 INFO  - ch115_WIN-74b6d - 1: visitid: 228
+ 2023-08-07 17:03:06,834 INFO  - ch115_WIN-1282b - 0:  [PASSED] Open https://falgsc.eu.org/
+ 2023-08-07 17:03:06,835 INFO  - ch115_WIN-1282b - 0: visitid: 228
+ 2023-08-07 17:03:06,849 INFO  - ch115_WIN-74b6d - 1:  [PASSED] Open https://falgsc.eu.org/#/pocPJ/
+ 2023-08-07 17:03:06,942 INFO  - ch115_WIN-1282b - 0:  [PASSED] Open https://falgsc.eu.org/#/pocPJ/
+ 2023-08-07 17:03:12,164 INFO  - ch115_WIN-74b6d - 1:  [PASSED] Getting stats from ["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"]
+ 2023-08-07 17:03:12,307 INFO  - ch115_WIN-1282b - 0:  [PASSED] Getting stats from ["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"]
+ 2023-08-07 17:03:13,841 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (392, 847)
+  (Session info: chrome=115.0.5790.111)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'NORMALBOOK', ip: '192.168.178.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_372'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.111, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\giann\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60582}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 74b6de5658c7d761fd9fff5a96a...}
+Session ID: 74b6de5658c7d761fd9fff5a96a94f30
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.webrtc.kite.telemed.steps.CloseVisitStep.step(CloseVisitStep.java:23)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+ 2023-08-07 17:03:13,846 WARN  - ch115_WIN-74b6d - 1: [SKIPPING] Get the browser console logs.
+ 2023-08-07 17:03:13,846 INFO  - ch115_WIN-74b6d - 1:  [BROKEN] Closing visit
+ 2023-08-07 17:03:13,992 ERROR - Step broken:
+   message = ***UNHANDLED EXCEPTION*** 
+ This is a bug and must be fixed. The exception must be caught and thrown as KiteTestException
+   trace = org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (392, 840)
+  (Session info: chrome=115.0.5790.111)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'NORMALBOOK', ip: '192.168.178.64', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_372'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.111, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\giann\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60583}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 1282be989cd933366fa028700f2...}
+Session ID: 1282be989cd933366fa028700f24d486
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.webrtc.kite.telemed.steps.CloseVisitStep.step(CloseVisitStep.java:23)
+	at io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)
+	at io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)
+	at org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+ 2023-08-07 17:03:13,996 WARN  - ch115_WIN-1282b - 0: [SKIPPING] Get the browser console logs.
+ 2023-08-07 17:03:13,997 INFO  - ch115_WIN-1282b - 0:  [BROKEN] Closing visit
+ 2023-08-07 17:03:13,998 INFO  - execute(DEFAULT) completed.
+ 2023-08-07 17:03:13,999 INFO  - Terminating, quiting webdriver
+ 2023-08-07 17:03:13,999 INFO  - Closing down webDrivers
+ 2023-08-07 17:03:14,730 INFO  - Test FAILED
+ 2023-08-07 17:03:14,730 INFO  - Matrix runner at last phase, ending. 
+ 2023-08-07 17:03:14,740 WARN  - Adding [0, 0] to retry list..
+ 2023-08-07 17:03:14,745 INFO  - Reading 'C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test\.\configs\telemed.config.json' ...
+ 2023-08-07 17:03:14,747 WARN  - Done! Some test cases might need to be rerun!
+ 2023-08-07 17:03:14,747 INFO  - Reading 'C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test\.\configs\telemed.config.json' ...
+ 2023-08-07 17:03:14,749 INFO  - shutdownExecutors() done.
+ 2023-08-07 17:05:41,322 INFO  - Reading 'C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test\.\configs\telemed.config.json' ...
+ 2023-08-07 17:05:41,518 INFO  - new RoomManager(2 max per room) for https://falgsc.eu.org/
+ 2023-08-07 17:05:41,518 INFO  - Please make sure that you have enough room for all users.
+ 2023-08-07 17:05:41,519 INFO  - getRoomUrl(random) function, with random value = true/false, will give you the base url with or without a randomized ID.
+ 2023-08-07 17:05:41,519 INFO  - Finished reading the configuration file
+ 2023-08-07 17:05:41,520 INFO  - Creating report folder if not exist at :C:\Users\giann\Documents\Progetti\KITE\KITE-Telemed-Test/kite-allure-reports/
+ 2023-08-07 17:05:41,526 INFO  - Running {"type":"interop","name":"Telemed Test %ts","testImpl":"org.webrtc.kite.telemed.KiteTelemedTest","description":"Telemed test description","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} ...
+ 2023-08-07 17:05:41,530 INFO  - Executing {"type":"interop","name":"Telemed Test %ts","testImpl":"org.webrtc.kite.telemed.KiteTelemedTest","description":"Telemed test description","tupleSize":2,"noOfThreads":1,"maxRetryCount":0,"delayForClosing":0,"permute":true} for 1 browser tuples with size :2
+ 2023-08-07 17:05:41,535 INFO  - current phase in test manager has been set to DEFAULT
+ 2023-08-07 17:05:41,544 INFO  - 
+           |--------------------------------------------------
+           | Number of registered tests: 0
+           | Elapsed time: 0m0s (avg:0m0s)
+           | Running test case with ID: 0/1
+           | ETA (for Telemed Test %ts): Estimating..
+           |--------------------------------------------------
+ 2023-08-07 17:05:41,547 INFO  - execute(DEFAULT) for the test case: WIN_ch-WIN_ch (2023-08-07-170541)
+ 2023-08-07 17:05:41,550 INFO  - Not load test, init report for test
+ 2023-08-07 17:05:41,551 INFO  - Finished filling out initial report for phase 
+ 2023-08-07 17:05:41,551 INFO  - payload handling
+ 2023-08-07 17:05:41,551 INFO  - the payload is {"url":"https://falgsc.eu.org/","usersPerRoom":2,"getStats":{"enabled":true,"statsCollectionTime":2,"statsCollectionInterval":1,"peerConnections":["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"],"selectedStats":["inbound-rtp","outbound-rtp","local-candidate","remote-candidate","candidate-pair","stream","peer-connection","codec","track","transport"]}}
+ 2023-08-07 17:05:41,552 INFO  - Creating runners
+ 2023-08-07 17:05:41,553 INFO  - Start creating the TestRunner id 1 in 0ms
+ 2023-08-07 17:05:41,553 INFO  - Start creating the TestRunner id 0 in 0ms
+ 2023-08-07 17:05:41,569 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"maxInstances":5,"extraCapabilities":{},"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"0","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","browserName":"chrome","deviceName":"unknown","platform":"WINDOWS"},"region":"NC"}
+ 2023-08-07 17:05:41,569 INFO  - unknown(no Web Driver): Creating web driver for {"app":false,"kind":"browser","logger":{"name":"org.webrtc.kite.config.client.Client","debugEnabled":true},"count":5,"clientIndex":0,"fullReset":false,"jsonConfig":{"browserName":{},"platform":{}},"capability":{"headless":false,"windowSize":"1920,1200","technologyPreview":false,"useFakeMedia":true,"flags":[],"maxInstances":5,"extraCapabilities":{},"gateway":"none"},"paas":{"specList":[],"networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"NONE","id":"","duplicate":0,"command":""},"availableSlots":3,"type":"local","region":"NC","url":"http://localhost:4444/wd/hub"},"name":"1","networkProfile":{"corrupt":0,"delay":0,"cleanUpCommand":"","bandwidth":0,"packetloss":0,"name":"","id":"","duplicate":0,"command":""},"exclude":false,"browserSpecs":{"extension":"","profile":"","driverString":"-Dwebdriver.chrome.driver=./chromedriver","browserName":"chrome","deviceName":"unknown","platform":"WINDOWS"},"region":"NC"}
+ 2023-08-07 17:05:43,781 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2023-08-07 17:05:43,781 INFO  - unknown(no Web Driver):  [PASSED] Initiate webDriver for client
+ 2023-08-07 17:05:43,798 INFO  - Starting the execution of the test runners in parallel 
+ 2023-08-07 17:05:43,799 INFO  - Start processing the TestRunner(DEFAULT) id 1 in 0ms
+ 2023-08-07 17:05:43,799 INFO  - Start processing the TestRunner(DEFAULT) id 0 in 0ms
+ 2023-08-07 17:05:45,233 INFO  - ch115_WIN-e46ac - 0: The visit is: 229
+ 2023-08-07 17:05:45,307 INFO  - ch115_WIN-0cada - 1:  [PASSED] Open https://falgsc.eu.org/
+ 2023-08-07 17:05:45,308 INFO  - ch115_WIN-0cada - 1: visitid: 229
+ 2023-08-07 17:05:45,338 INFO  - ch115_WIN-e46ac - 0:  [PASSED] Open https://falgsc.eu.org/
+ 2023-08-07 17:05:45,339 INFO  - ch115_WIN-e46ac - 0: visitid: 229
+ 2023-08-07 17:05:45,429 INFO  - ch115_WIN-0cada - 1:  [PASSED] Open https://falgsc.eu.org/#/pocPJ/
+ 2023-08-07 17:05:45,444 INFO  - ch115_WIN-e46ac - 0:  [PASSED] Open https://falgsc.eu.org/#/pocPJ/
+ 2023-08-07 17:05:50,854 INFO  - ch115_WIN-0cada - 1:  [PASSED] Getting stats from ["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"]
+ 2023-08-07 17:05:50,856 INFO  - ch115_WIN-e46ac - 0:  [PASSED] Getting stats from ["ng.getComponent($('app-videocall-pj')[0]).mediaConnection.peerConnection"]
+ 2023-08-07 17:05:51,665 INFO  - ch115_WIN-0cada - 1:  [PASSED] Closing visit
+ 2023-08-07 17:05:51,676 INFO  - ch115_WIN-e46ac - 0:  [PASSED] Closing visit
+ 2023-08-07 17:05:51,677 INFO  - execute(DEFAULT) completed.
+ 2023-08-07 17:05:51,678 INFO  - Terminating, quiting webdriver
+ 2023-08-07 17:05:51,680 INFO  - Closing down webDrivers
+ 2023-08-07 17:05:52,419 INFO  - Test PASSED
+ 2023-08-07 17:05:52,420 INFO  - Matrix runner at last phase, ending. 
+ 2023-08-07 17:05:52,435 WARN  - Done! All test cases have passed!
+ 2023-08-07 17:05:52,435 INFO  - shutdownExecutors() done.
+ 

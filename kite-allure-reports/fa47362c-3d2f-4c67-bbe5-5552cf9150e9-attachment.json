@@ -1,0 +1,28 @@
+
+{
+    "Starting Timestamp": "2023-08-01 18-36-55",
+    "Ending Timestamp": "2023-08-01 18-36-59",
+    "Connected": true,
+    "Room": "https://falgsc.eu.org/#/pocPJ/212",
+    "Batch": "0",
+    "Network Profile": "",
+    "Region Id": "NC",
+    "Itinerary": "0",
+    "avg_current_rtt(ms)": 0.0,
+    "outbound": {
+        "audio": [
+            {
+                "streamId": "OT01A100963425",
+                "avg_sent_bitrate(kbps)": "0"
+            }
+        ],
+        "video": [
+            {
+                "streamId": "OT11V3571662959",
+                "avg_sent_bitrate(kbps)": "0",
+                "frames_sent": "0",
+                "avg_frame_rate(fps)": "0"
+            }
+        ]
+    }
+}

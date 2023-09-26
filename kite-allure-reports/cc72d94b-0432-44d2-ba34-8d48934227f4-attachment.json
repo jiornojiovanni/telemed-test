@@ -1,0 +1,5 @@
+
+{
+    "Timestamp": "2023-08-01-182319",
+    "Console Log": "1690906998374:WARNING https://falgsc.eu.org/vendor.js 98455:12 \"Current document does not have a doctype. This may cause some Angular Material components not to behave as expected.\"\r\n1690906998754:WARNING https://falgsc.eu.org/vendor.js 98455:12 \"Current document does not have a doctype. This may cause some Angular Material components not to behave as expected.\"\r\n"
+}

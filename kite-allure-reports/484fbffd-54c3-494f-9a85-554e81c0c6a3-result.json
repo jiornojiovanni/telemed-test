@@ -1,0 +1,272 @@
+
+{
+    "name": "WIN_ch-WIN_ch (2023-07-30-172011) - 0",
+    "start": 1690730414904,
+    "stop": 1690730421778,
+    "description": "WIN_ch-WIN_ch (2023-07-30-172011)",
+    "stage": "finished",
+    "status": "PASSED",
+    "parameters": [
+    ],
+    "steps": [
+        {
+            "name": "Filling out reports, handling payload, creating runners..",
+            "start": 1690730411943,
+            "stop": 1690730414900,
+            "description": "Filling out reports, handling payload, creating runners..",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1690730411955,
+            "stop": 1690730414857,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "unknown(no Web Driver): Initiate webDriver for client",
+            "start": 1690730411955,
+            "stop": 1690730414857,
+            "description": "Initiate webDriver for client",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-e6507 - 0: Open https://falgsc.eu.org",
+            "start": 1690730414905,
+            "stop": 1690730416110,
+            "description": "Open https://falgsc.eu.org",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-0bc20 - 1: Open https://falgsc.eu.org",
+            "start": 1690730414905,
+            "stop": 1690730416113,
+            "description": "Open https://falgsc.eu.org",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-0bc20 - 1: Open https://falgsc.eu.org/#/pocPJ/166",
+            "start": 1690730416113,
+            "stop": 1690730416292,
+            "description": "Open https://falgsc.eu.org/#/pocPJ/166",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-e6507 - 0: Open https://falgsc.eu.org/#/pocPJ/166",
+            "start": 1690730416110,
+            "stop": 1690730416295,
+            "description": "Open https://falgsc.eu.org/#/pocPJ/166",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-0bc20 - 1: Getting stats from [\"window.pc[0]\"]",
+            "start": 1690730416292,
+            "stop": 1690730421741,
+            "description": "Getting stats from [\"window.pc[0]\"]",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "Stats(Raw)_window.pc[0]",
+                    "type": "text/json",
+                    "source": "914a3183-a304-47b5-b433-66a8465d135a-attachment.json"
+                },
+                {
+                    "name": "Stats(Summary)_window.pc[0]",
+                    "type": "text/json",
+                    "source": "fdb13ddd-fde4-47ca-9eff-10066074e852-attachment.json"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "ch115_WIN-e6507 - 0: Getting stats from [\"window.pc[0]\"]",
+            "start": 1690730416295,
+            "stop": 1690730421778,
+            "description": "Getting stats from [\"window.pc[0]\"]",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "name": "Stats(Raw)_window.pc[0]",
+                    "type": "text/json",
+                    "source": "bfa850f1-4d4a-43e1-baf4-1cbeb8474f6d-attachment.json"
+                },
+                {
+                    "name": "Stats(Summary)_window.pc[0]",
+                    "type": "text/json",
+                    "source": "d76a12f6-c8f8-4814-a909-43aa55b24709-attachment.json"
+                }
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        },
+        {
+            "name": "Cleaning up and finishing the test",
+            "start": 1690730421779,
+            "stop": 1690730423040,
+            "description": "Cleaning up and finishing the test",
+            "stage": "finished",
+            "status": "PASSED",
+            "parameters": [
+            ],
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "The test has passed successfully!"
+            }
+        }
+    ],
+    "attachments": [
+    ],
+    "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "The test has passed successfully!"
+    },
+    "uuid": "484fbffd-54c3-494f-9a85-554e81c0c6a3",
+    "fullName": "org.webrtc.kite.telemed.KiteTelemedTest",
+    "historyId": "1151e208-153e-4b90-bc09-aaedf90b4436",
+    "links": [
+    ],
+    "labels": [
+        {
+            "name": "package",
+            "value": "package org.webrtc.kite.telemed"
+        },
+        {
+            "name": "testClass",
+            "value": "class org.webrtc.kite.telemed.KiteTelemedTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "execute"
+        },
+        {
+            "name": "host",
+            "value": "normalbook"
+        },
+        {
+            "name": "suite",
+            "value": "Telemed Test  (2023-07-30-172011)"
+        },
+        {
+            "name": "parentSuite",
+            "value": "Telemed  [2023-07-30-172011] (2023-07-30-172011)"
+        }
+    ]
+}
