@@ -1,8 +1,0 @@
-org\webrtc\kite\telemed\steps\WaitStep.class
-org\webrtc\kite\telemed\APIClient.class
-org\webrtc\kite\telemed\steps\CloseVisitStep.class
-org\webrtc\kite\telemed\steps\OpenUrlStep.class
-org\webrtc\kite\telemed\KiteTelemedTest.class
-org\webrtc\kite\telemed\checks\MyFirstCheck.class
-org\webrtc\kite\telemed\pages\MainPage.class
-org\webrtc\kite\telemed\steps\AccessVisitStep.class

@@ -1,5 +1,0 @@
-
-{
-    "Timestamp": "2023-08-01-183656",
-    "Console Log": "1690907811131:SEVERE javascript 2:109 Uncaught TypeError: Cannot read properties of undefined (reading peerConnection)\r\n1690907811215:SEVERE https://falgsc.eu.org:8080/visitpartecipants?visitID=null - Failed to load resource: the server responded with a status of 500 (Internal Server Error)\r\n1690907811218:SEVERE https://falgsc.eu.org/vendor.js 69635:18 \"ERROR\" HttpErrorResponse\r\n1690907813240:SEVERE javascript 2:109 Uncaught TypeError: Cannot read properties of undefined (reading peerConnection)\r\n1690907815353:SEVERE javascript 2:109 Uncaught TypeError: Cannot read properties of undefined (reading peerConnection)\r\n"
-}

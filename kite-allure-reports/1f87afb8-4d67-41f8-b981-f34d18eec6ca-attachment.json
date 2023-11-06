@@ -1,8 +1,0 @@
-
-{
-    "known": true,
-    "muted": false,
-    "flaky": false,
-    "message": "MyFirstCheck failed, 71 >= 38\r\n",
-    "trace": "io.cosmosoftware.kite.exception.KiteTestException: MyFirstCheck failed, 71 >= 38\r\n\r\n\tat org.webrtc.kite.telemed.checks.MyFirstCheck.step(MyFirstCheck.java:29)\r\n\tat io.cosmosoftware.kite.steps.TestStep.execute(TestStep.java:81)\r\n\tat io.cosmosoftware.kite.steps.TestStep.processTestStep(TestStep.java:329)\r\n\tat org.webrtc.kite.tests.TestRunner.call(TestRunner.java:187)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:750)\r\n"
-}

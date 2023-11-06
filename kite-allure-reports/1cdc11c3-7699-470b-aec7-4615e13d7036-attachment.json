@@ -1,5 +1,0 @@
-
-{
-    "Timestamp": "2023-08-01-181202",
-    "Console Log": "1690906317419:SEVERE javascript 2:109 Uncaught TypeError: Cannot read properties of undefined (reading peerConnection)\r\n1690906319518:SEVERE javascript 2:109 Uncaught TypeError: Cannot read properties of undefined (reading peerConnection)\r\n1690906321624:SEVERE javascript 2:109 Uncaught TypeError: Cannot read properties of undefined (reading peerConnection)\r\n"
-}

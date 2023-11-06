@@ -1,1 +1,0 @@
-{"name":"Telemed %ts","grids":[{"type":"local","url":"http://localhost:4444/wd/hub"}],"clients":[{"browserName":"chrome","platform":"localhost"}],"tests":[{"name":"Telemed Test %ts","tupleSize":10,"description":"Telemed test description","testImpl":"org.webrtc.kite.telemed.KiteTelemedTest","payload":{"url":"https://google.com","usersPerRoom":2}}],"matrix":[[0,0,0,0,0,0,0,0,0,0]]}
