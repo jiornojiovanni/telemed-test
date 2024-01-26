@@ -7,9 +7,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.webrtc.kite.telemed.APIClient;
 import org.webrtc.kite.telemed.pages.MainPage;
 
-import java.io.*;
 import java.util.Map;
-import java.util.Properties;
 
 public class OpenUrlStep extends TestStep {
   
