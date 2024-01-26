@@ -17,7 +17,7 @@ import org.webrtc.kite.tests.TestRunner;
 
 import io.cosmosoftware.kite.exception.KiteTestException;
 
-public class KiteTelemedTest extends KiteBaseTest {
+public class WebRTCTest extends KiteBaseTest {
   Map<String, String> visits = new HashMap<>();
   ArrayList<String> visite = new ArrayList<>();
   int visitCounter = 0;
@@ -74,7 +74,7 @@ public class KiteTelemedTest extends KiteBaseTest {
       }
   
       runner.addStep(new AccessProfile(runner, url + "profile"));
-      runner.addStep(new AccessVisitStep(runner, url + "#/pocPJ/", room, medicAccount));
+      runner.addStep(new AccessVisitStep(runner, url + "#/WebRTC/", room, medicAccount));
       runner.addStep(new WaitStep(runner, room));
       runner.addStep(new GetStatsStep(runner, getStatsConfig));
       runner.addStep(new CloseVisitStep(runner));

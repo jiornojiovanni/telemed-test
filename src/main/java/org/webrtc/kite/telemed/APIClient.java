@@ -23,7 +23,7 @@ public class APIClient {
         }
     }
 
-    public int createVisit(String bearerToken, String email) {
+    public synchronized int createVisit(String bearerToken, String email) {
         String putData = "{\"visitName\":\"\",\"visitDate\":\"2023-08-10\",\"visitTime\":\"04:44\",\"visitEmail\":\"" + email  + "\"}";
         try {
             String response = makePut("https://falgsc.eu.org:8080/visit", bearerToken , putData);

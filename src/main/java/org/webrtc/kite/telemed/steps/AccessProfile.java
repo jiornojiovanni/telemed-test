@@ -1,22 +1,20 @@
 package org.webrtc.kite.telemed.steps;
 
+import org.webrtc.kite.telemed.pages.MainPage;
+
 import io.cosmosoftware.kite.exception.KiteTestException;
 import io.cosmosoftware.kite.interfaces.Runner;
 import io.cosmosoftware.kite.steps.TestStep;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-
-public class WaitStep extends TestStep {
-
+public class AccessProfile extends TestStep {
     private final String url;
+    private final MainPage mainPage;
 
-
-    public WaitStep(Runner runner, String url) {
+    public AccessProfile(Runner runner, String url) {
         super(runner);
         this.url = url;
+        this.mainPage = new MainPage(runner);
     }
-
 
     @Override
     public String stepDescription() {
@@ -25,13 +23,6 @@ public class WaitStep extends TestStep {
 
     @Override
     protected void step() throws KiteTestException {
-        try {
-            WebDriverWait wait = new WebDriverWait(webDriver, 50);
-            wait.until(ExpectedConditions.alertIsPresent());
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        mainPage.open(url);
     }
-
-
 }

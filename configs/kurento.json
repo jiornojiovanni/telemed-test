@@ -9,10 +9,10 @@
   "tests": [
     {
       "name": "Telemed Test %ts",
-      "tupleSize": 6,
+      "tupleSize": 2,
       "noOfThreads": 6,
       "description": "Telemed test description",
-      "testImpl": "org.webrtc.kite.telemed.KiteTelemedTest",
+      "testImpl": "org.webrtc.kite.telemed.KurentoTest",
       "payload" : {
         "url": "https://falgsc.eu.org/",
         "usersPerRoom": 2,
@@ -20,7 +20,7 @@
           "enabled": true,
           "statsCollectionTime": 2,
           "statsCollectionInterval": 1,
-          "peerConnections": ["ng.getComponent($('app-videocall-pj')[0]).peerConnection"],
+          "peerConnections": ["ng.getComponent($('app-kurento')[0]).webRtcPeer.peerConnection"],
           "selectedStats" : ["inbound-rtp","outbound-rtp","local-candidate","remote-candidate","candidate-pair","stream","peer-connection","codec","track","transport"]
         }
       }
