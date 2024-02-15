@@ -34,14 +34,6 @@ public class AccessVisitStep extends TestStep {
     @Override
     protected void step() throws KiteTestException {
         logger.info("visitid: " + room);
-        if (!account) {
-            try {
-                WebDriverWait wait = new WebDriverWait(webDriver, 3);
-                wait.until(ExpectedConditions.alertIsPresent());
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
         mainPage.open(url + room);
     }
 }
