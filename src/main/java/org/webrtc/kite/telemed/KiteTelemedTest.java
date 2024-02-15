@@ -75,9 +75,11 @@ public class KiteTelemedTest extends KiteBaseTest {
   
       runner.addStep(new AccessProfile(runner, url + "profile"));
       runner.addStep(new AccessVisitStep(runner, url + "#/pocPJ/", room, medicAccount));
-      runner.addStep(new WaitStep(runner, room));
       runner.addStep(new GetStatsStep(runner, getStatsConfig));
-      runner.addStep(new CloseVisitStep(runner));
+      
+      if (medicAccount) {
+        runner.addStep(new CloseVisitStep(runner));
+      }
 
     } catch (KiteTestException e) {
       e.printStackTrace();
