@@ -9,6 +9,7 @@
   "tests": [
     {
       "name": "Telemed Test %ts",
+      "noOfThreads": 12,
       "tupleSize": 10,
       "description": "Telemed test description",
       "testImpl": "org.webrtc.kite.telemed.WebRTCTest",
@@ -17,7 +18,7 @@
         "usersPerRoom": 2,
         "getStats" : {
           "enabled": true,
-          "statsCollectionTime": 2,
+          "statsCollectionTime": 15,
           "statsCollectionInterval": 1,
           "peerConnections": ["ng.getComponent($('app-web-rtc')[0]).pclients[0].connection.connection"],
           "selectedStats" : ["inbound-rtp","outbound-rtp","local-candidate","remote-candidate","candidate-pair","stream","peer-connection","codec","track","transport"]

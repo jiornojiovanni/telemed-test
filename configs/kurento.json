@@ -1,5 +1,5 @@
 {
-  "name": "Telemed %ts",
+  "name": "Telemed",
   "grids": [
     {
       "type": "local",
@@ -8,9 +8,9 @@
   ],
   "tests": [
     {
-      "name": "Telemed Test %ts",
+      "name": "Telemed Test : Kurento",
       "tupleSize": 2,
-      "noOfThreads": 6,
+      "noOfThreads": 12,
       "description": "Telemed test description",
       "testImpl": "org.webrtc.kite.telemed.KurentoTest",
       "payload" : {
@@ -18,7 +18,7 @@
         "usersPerRoom": 2,
         "getStats" : {
           "enabled": true,
-          "statsCollectionTime": 2,
+          "statsCollectionTime": 15,
           "statsCollectionInterval": 1,
           "peerConnections": ["ng.getComponent($('app-kurento')[0]).webRtcPeer.peerConnection"],
           "selectedStats" : ["inbound-rtp","outbound-rtp","local-candidate","remote-candidate","candidate-pair","stream","peer-connection","codec","track","transport"]
